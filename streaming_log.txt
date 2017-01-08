@@ -1,0 +1,2167 @@
+
+
+[2017-01-07 16:27:19] CLIENT: Attaching controller XInput Controller with ID 4
+[2017-01-07 16:27:19] CLIENT: Sending HID device 28de/1142/0 Valve Software Steam Controller at /dev/hidraw0
+[2017-01-07 16:27:19] CLIENT: Sending HID device 28de/1142/1 Valve Software Steam Controller at /dev/hidraw1
+[2017-01-07 16:27:19] CLIENT: Sending HID device 28de/1142/2 Valve Software Steam Controller at /dev/hidraw2
+[2017-01-07 16:27:19] CLIENT: Sending HID device 28de/1142/3 Valve Software Steam Controller at /dev/hidraw3
+[2017-01-07 16:27:19] CLIENT: Sending HID device 28de/1142/4 Valve Software Steam Controller at /dev/hidraw4
+[2017-01-07 16:27:19] CLIENT: Sending HID device 045e/028e/-1  XInput Controller at sdl://0
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlSetQoS
+[2017-01-07 16:27:19] Streaming started to Steam Link build 566 at 192.168.0.169:52728, audio channels = 2, MTU = 1468
+[2017-01-07 16:27:19] Streaming quality: k_EStreamQualityFast
+[2017-01-07 16:27:19] Streaming bitrate: Automatic
+[2017-01-07 16:27:19] Maximum capture: 1920x1080 59.94 FPS
+[2017-01-07 16:27:19] Video Streaming: enabled
+[2017-01-07 16:27:19] Audio Streaming: enabled
+[2017-01-07 16:27:19] Input Streaming: enabled
+[2017-01-07 16:27:19] =====================================================================
+[2017-01-07 16:27:19] Game: UNKNOWN (0)
+[2017-01-07 16:27:19] Recording system audio
+[2017-01-07 16:27:19] Recording on device: Speakers (Yeti Stereo Microphone)
+[2017-01-07 16:27:19] Audio client mix format:
+[2017-01-07 16:27:19] 	format: 65534
+[2017-01-07 16:27:19] 	channels: 2
+[2017-01-07 16:27:19] 	samples/sec: 48000
+[2017-01-07 16:27:19] 	bytes/sec: 384000
+[2017-01-07 16:27:19] 	alignment: 8
+[2017-01-07 16:27:19] 	bits/sample: 32
+[2017-01-07 16:27:19] 	channel mask: 0x3
+[2017-01-07 16:27:19] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2017-01-07 16:27:19] Initializing audio with 2 channels and 48000 samples/sec
+[2017-01-07 16:27:19] Changing record window: 00110530
+[2017-01-07 16:27:19] Audio mix: start=336985395683, returned=0
+[2017-01-07 16:27:19] Audio source [System Windows]: init=0, through=0, last_start=0, mixed=0, drop_before=0, drop_after=0
+[2017-01-07 16:27:19] CDesktopCaptureNV: Unsupported device or driver
+[2017-01-07 16:27:19] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10959
+[2017-01-07 16:27:19] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 16:27:19] >>> Switching video stream from NONE to Desktop_MovieStream
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 16:27:19] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2017-01-07 16:27:19] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 16:27:19] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 16:27:19] >>> Capture resolution set to 1920x1080
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlSetIcon
+[2017-01-07 16:27:19] >>> Client video decoder set to Marvell hardware decoding
+[2017-01-07 16:27:19] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 16:27:19] CLIENT: Marvell hardware decoding
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2017-01-07 16:27:19] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 16:27:19] CLIENT: Video overflow (350.22ms queued), requesting keyframe synchronization
+[2017-01-07 16:27:19] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 16:27:19] CLIENT: Marking frame 3 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:27:19] CLIENT: Marking frame 4 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:27:19] CLIENT: Marking frame 5 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:27:19] CLIENT: Marking frame 6 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:27:19] CLIENT: Marking frame 7 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:27:19] CLIENT: Marking frame 8 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:27:19] CLIENT: Marking frame 9 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:27:19] CLIENT: Marking frame 1 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 16:27:19] CLIENT: Flushing audio, 98 ms queued, 66 ms maximum, delivery delay = 8
+[2017-01-07 16:27:19] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:27:21] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 16:27:22] CLIENT: Flushing audio, 80 ms queued, 62 ms maximum, delivery delay = 6
+[2017-01-07 16:27:22] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:27:22] CLIENT: Flushing audio, 78 ms queued, 60 ms maximum, delivery delay = 5
+[2017-01-07 16:27:23] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:28:19] Audio mix: start=336985395683, returned=2876160
+[2017-01-07 16:28:19] Audio source [System Windows]: init=336985419841, through=246439, last_start=245959, mixed=245280, drop_before=0, drop_after=0
+[2017-01-07 16:28:57] Over 960 sample audio gap
+[2017-01-07 16:29:19] Audio mix: start=336985395683, returned=5760480
+[2017-01-07 16:29:19] Audio source [System Windows]: init=336985419841, through=5761134, last_start=5760654, mixed=1055040, drop_before=0, drop_after=0
+[2017-01-07 16:29:35] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10959
+[2017-01-07 16:29:35] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 16:29:55] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10959
+[2017-01-07 16:29:55] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 16:30:19] Audio mix: start=336985395683, returned=8640960
+[2017-01-07 16:30:19] Audio source [System Windows]: init=336985419841, through=8641614, last_start=8641134, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:30:21] Changing record window: 001D04F6
+[2017-01-07 16:30:21] "SessionStats"
+{
+	"GameNameID"		"Steam Big Picture"
+	"TimeSubmitted"		"1483835421"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Steam D3D10 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.7959342002868652"
+	"StdDevClientBitrate"		"4.0841207504272461"
+	"AvgServerBitrate"		"4394.5322265625"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0.048052538186311722"
+	"StdDevPingMS"		"0.15018248558044434"
+	"AvgCaptureMS"		"0.85038679838180542"
+	"StdDevCaptureMS"		"0.41204261779785156"
+	"AvgConvertMS"		"0.019338738173246384"
+	"StdDevConvertMS"		"0.88627755641937256"
+	"AvgEncodeMS"		"7.011512279510498"
+	"StdDevEncodeMS"		"2.2497484683990479"
+	"AvgNetworkMS"		"1.5057927370071411"
+	"StdDevNetworkMS"		"1.5843265056610107"
+	"AvgDecodeMS"		"1.2153425216674805"
+	"StdDevDecodeMS"		"0.31597051024436951"
+	"AvgDisplayMS"		"0.012702635489404202"
+	"StdDevDisplayMS"		"0.029650632292032242"
+	"AvgFrameMS"		"18.038722991943359"
+	"StdDevFrameMS"		"6.4350996017456055"
+	"AvgFPS"		"65.847015380859375"
+	"StdDevFPS"		"32.771549224853516"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 16:30:21] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 16:30:21] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 16:30:21] >>> Capture method set to Desktop BitBlt RGB + libyuv + NVENC H264
+[2017-01-07 16:30:21] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 16:30:23] >>> Capture resolution set to 696x502
+[2017-01-07 16:30:23] CLIENT: Video size: 696x502, output size: 1920x1080
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 16:30:23] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 16:30:23] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:24] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:24] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:26] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:26] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:26] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:26] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:39] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:39] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:40] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:40] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:41] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:41] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:42] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:42] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:43] "SessionStats"
+{
+	"GameNameID"		"Desktop"
+	"TimeSubmitted"		"1483835443"
+	"ResolutionX"		"696"
+	"ResolutionY"		"502"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"5000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0.98382538557052612"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.9305598735809326"
+	"StdDevClientBitrate"		"0.91853863000869751"
+	"AvgServerBitrate"		"892.78167724609375"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0.0360107421875"
+	"StdDevPingMS"		"0.067651122808456421"
+	"AvgCaptureMS"		"33.374259948730469"
+	"StdDevCaptureMS"		"5.2212648391723633"
+	"AvgConvertMS"		"0.54017800092697144"
+	"StdDevConvertMS"		"1.6556710004806519"
+	"AvgEncodeMS"		"2.0835530757904053"
+	"StdDevEncodeMS"		"3.5584948062896729"
+	"AvgNetworkMS"		"0.52835935354232788"
+	"StdDevNetworkMS"		"1.0587623119354248"
+	"AvgDecodeMS"		"1.1287281513214111"
+	"StdDevDecodeMS"		"0.15231655538082123"
+	"AvgDisplayMS"		"0.0097926389425992966"
+	"StdDevDisplayMS"		"0.023152373731136322"
+	"AvgFrameMS"		"52.781543731689453"
+	"StdDevFrameMS"		"8.6012420654296875"
+	"AvgFPS"		"30.820159912109375"
+	"StdDevFPS"		"6.6285414695739746"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 16:30:43] >>> Capture resolution set to 1920x1080
+[2017-01-07 16:30:48] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:48] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 16:30:49] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 16:30:49] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 16:30:49] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:30:54] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:54] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:55] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:55] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:56] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:56] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:57] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:57] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:30:59] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:30:59] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:00] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:00] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:01] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:01] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:12] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:12] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:14] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:14] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:16] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:16] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:17] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:17] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:19] Audio mix: start=336985395683, returned=11517120
+[2017-01-07 16:31:19] Audio source [System Windows]: init=336985419841, through=8738574, last_start=8738094, mixed=96960, drop_before=0, drop_after=0
+[2017-01-07 16:31:20] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:20] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:21] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:21] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:22] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:22] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:24] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:24] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:33] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:33] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:38] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:31:40] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:31:41] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:41] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:42] Over 960 sample audio gap
+[2017-01-07 16:31:43] Changing record window: 00090424
+[2017-01-07 16:31:45] >>> Switching video stream from Desktop_MovieStream to GameOverlay_MovieStream_9152
+[2017-01-07 16:31:45] "SessionStats"
+{
+	"GameNameID"		"Desktop"
+	"TimeSubmitted"		"1483835505"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"12.591282844543457"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"5.4980945587158203"
+	"StdDevClientBitrate"		"14.535013198852539"
+	"AvgServerBitrate"		"782.21881103515625"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0.34414014220237732"
+	"StdDevPingMS"		"0.57609784603118896"
+	"AvgCaptureMS"		"31.644941329956055"
+	"StdDevCaptureMS"		"13.409735679626465"
+	"AvgConvertMS"		"3.1272153854370117"
+	"StdDevConvertMS"		"2.9962911605834961"
+	"AvgEncodeMS"		"6.741055965423584"
+	"StdDevEncodeMS"		"3.9309313297271729"
+	"AvgNetworkMS"		"0.9845924973487854"
+	"StdDevNetworkMS"		"3.3388690948486328"
+	"AvgDecodeMS"		"1.181583046913147"
+	"StdDevDecodeMS"		"0.20990185439586639"
+	"AvgDisplayMS"		"0.011270196177065372"
+	"StdDevDisplayMS"		"0.014107925817370415"
+	"AvgFrameMS"		"73.093452453613281"
+	"StdDevFrameMS"		"15.29719352722168"
+	"AvgFPS"		"37.923698425292969"
+	"StdDevFPS"		"18.485378265380859"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 16:31:45] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 16:31:45] CLIENT: Got control packet k_EStreamControlSetIcon
+[2017-01-07 16:31:45] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 16:31:45] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:31:45] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:31:51] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:31:52] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:31:56] "SessionStats"
+{
+	"GameNameID"		"Grand Theft Auto V"
+	"TimeSubmitted"		"1483835516"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.9040000438690186"
+	"StdDevClientBitrate"		"0"
+	"AvgServerBitrate"		"123.73867034912109"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0"
+	"StdDevPingMS"		"0"
+	"AvgCaptureMS"		"32.867431640625"
+	"StdDevCaptureMS"		"10.1639404296875"
+	"AvgConvertMS"		"3.5228729248046875"
+	"StdDevConvertMS"		"1.756346583366394"
+	"AvgEncodeMS"		"6.2198638916015625"
+	"StdDevEncodeMS"		"1.9136645793914795"
+	"AvgNetworkMS"		"0.26035308837890625"
+	"StdDevNetworkMS"		"0.51379221677780151"
+	"AvgDecodeMS"		"1.1920928955078125"
+	"StdDevDecodeMS"		"0.143234983086586"
+	"AvgDisplayMS"		"0.01049041748046875"
+	"StdDevDisplayMS"		"0.0073045892640948296"
+	"AvgFrameMS"		"79.716682434082031"
+	"StdDevFrameMS"		"2.6218118667602539"
+	"AvgFPS"		"27.34373664855957"
+	"StdDevFPS"		"7.2402029037475586"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 16:31:56] >>> Capture method set to Game polled D3D11 NV12 + NVENC H264
+[2017-01-07 16:31:56] >>> Capture resolution set to 1914x1052
+[2017-01-07 16:31:56] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 16:31:56] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 16:31:56] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:31:56] CLIENT: Video size: 1914x1052, output size: 1920x1080
+[2017-01-07 16:32:15] CLIENT: Flushing audio, 118 ms queued, 82 ms maximum, delivery delay = 16
+[2017-01-07 16:32:15] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:18] Audio mix: start=336985395683, returned=14400480
+[2017-01-07 16:32:18] Audio source [System Windows]: init=336985419841, through=14402450, last_start=14401970, mixed=1778880, drop_before=0, drop_after=0
+[2017-01-07 16:32:18] CLIENT: Flushing audio, 104 ms queued, 80 ms maximum, delivery delay = 15
+[2017-01-07 16:32:18] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:25] CLIENT: Flushing audio, 106 ms queued, 94 ms maximum, delivery delay = 22
+[2017-01-07 16:32:25] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:31] CLIENT: Flushing audio, 100 ms queued, 96 ms maximum, delivery delay = 23
+[2017-01-07 16:32:31] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:32] CLIENT: Flushing audio, 88 ms queued, 82 ms maximum, delivery delay = 16
+[2017-01-07 16:32:32] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:33] CLIENT: Flushing audio, 112 ms queued, 84 ms maximum, delivery delay = 17
+[2017-01-07 16:32:33] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:44] CLIENT: Flushing audio, 102 ms queued, 84 ms maximum, delivery delay = 17
+[2017-01-07 16:32:44] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:45] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:32:45] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:32:45] CLIENT: Flushing audio, 96 ms queued, 84 ms maximum, delivery delay = 17
+[2017-01-07 16:32:45] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:46] CLIENT: Flushing audio, 88 ms queued, 82 ms maximum, delivery delay = 16
+[2017-01-07 16:32:46] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:50] CLIENT: Flushing audio, 112 ms queued, 98 ms maximum, delivery delay = 24
+[2017-01-07 16:32:50] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:52] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:32:52] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:32:54] CLIENT: Flushing audio, 96 ms queued, 76 ms maximum, delivery delay = 13
+[2017-01-07 16:32:54] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:55] CLIENT: Flushing audio, 94 ms queued, 66 ms maximum, delivery delay = 8
+[2017-01-07 16:32:55] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:56] CLIENT: Flushing audio, 84 ms queued, 66 ms maximum, delivery delay = 8
+[2017-01-07 16:32:56] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:57] CLIENT: Flushing audio, 74 ms queued, 66 ms maximum, delivery delay = 8
+[2017-01-07 16:32:57] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:32:58] CLIENT: Flushing audio, 70 ms queued, 60 ms maximum, delivery delay = 5
+[2017-01-07 16:32:58] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:33:03] CLIENT: Flushing audio, 66 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 16:33:03] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:33:19] Audio mix: start=336985395683, returned=17281920
+[2017-01-07 16:33:19] Audio source [System Windows]: init=336985419841, through=17282450, last_start=17281970, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:34:19] Audio mix: start=336985395683, returned=20162400
+[2017-01-07 16:34:19] Audio source [System Windows]: init=336985419841, through=20162930, last_start=20162450, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:35:19] Audio mix: start=336985395683, returned=23042400
+[2017-01-07 16:35:19] Audio source [System Windows]: init=336985419841, through=23042930, last_start=23042450, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:36:19] Audio mix: start=336985395683, returned=25922880
+[2017-01-07 16:36:19] Audio source [System Windows]: init=336985419841, through=25923410, last_start=25922930, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:37:19] Audio mix: start=336985395683, returned=28802880
+[2017-01-07 16:37:19] Audio source [System Windows]: init=336985419841, through=28803410, last_start=28802930, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:37:49] Changing record window: 0002007C
+[2017-01-07 16:37:49] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10959
+[2017-01-07 16:37:49] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 16:37:49] >>> Switching video stream from GameOverlay_MovieStream_9152 to Desktop_MovieStream
+[2017-01-07 16:37:49] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:37:49] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:37:49] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:37:49] "SessionStats"
+{
+	"GameNameID"		"Grand Theft Auto V"
+	"TimeSubmitted"		"1483835869"
+	"ResolutionX"		"1914"
+	"ResolutionY"		"1052"
+	"CaptureDescriptionID"		"Game polled D3D11 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"1.5701342821121216"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0.29671081900596619"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.3916959762573242"
+	"StdDevClientBitrate"		"0.27585715055465698"
+	"AvgServerBitrate"		"7539.5068359375"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0.069686166942119598"
+	"StdDevPingMS"		"0.29619354009628296"
+	"AvgCaptureMS"		"1.0222823619842529"
+	"StdDevCaptureMS"		"0.51330524682998657"
+	"AvgConvertMS"		"0.0057256389409303665"
+	"StdDevConvertMS"		"0.10787192732095718"
+	"AvgEncodeMS"		"6.6566257476806641"
+	"StdDevEncodeMS"		"5.8136749267578125"
+	"AvgNetworkMS"		"2.3402886390686035"
+	"StdDevNetworkMS"		"2.1022095680236816"
+	"AvgDecodeMS"		"1.39859938621521"
+	"StdDevDecodeMS"		"0.46171039342880249"
+	"AvgDisplayMS"		"0.01447608508169651"
+	"StdDevDisplayMS"		"0.055263955146074295"
+	"AvgFrameMS"		"21.061433792114258"
+	"StdDevFrameMS"		"9.4464921951293945"
+	"AvgFPS"		"60.804119110107422"
+	"StdDevFPS"		"18.718963623046875"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 16:37:49] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 16:37:49] CLIENT: Got control packet k_EStreamControlSetIcon
+[2017-01-07 16:37:49] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 16:37:49] CLIENT: Targeting 59.94 FPS
+[2017-01-07 16:37:49] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 16:38:02] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:02] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:19] Audio mix: start=336985395683, returned=31683360
+[2017-01-07 16:38:19] Audio source [System Windows]: init=336985419841, through=31683890, last_start=31683410, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:38:25] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:26] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:27] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:27] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 16:38:27] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:29] Changing record window: 00000000
+[2017-01-07 16:38:35] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:35] Changing record window: 00030504
+[2017-01-07 16:38:35] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 16:38:35] CLIENT: Got control packet k_EStreamControlSetIcon
+[2017-01-07 16:38:35] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:56] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:56] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:56] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:38:56] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:39:05] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:39:07] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:39:11] Changing record window: 00000000
+[2017-01-07 16:39:19] Audio mix: start=336985395683, returned=34563360
+[2017-01-07 16:39:19] Audio source [System Windows]: init=336985419841, through=34563890, last_start=34563410, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:39:21] Audio mix: start=336985395683, returned=37443840
+[2017-01-07 16:39:21] Audio source [System Windows]: init=336985419841, through=37444370, last_start=37443890, mixed=2880480, drop_before=0, drop_after=0
+
+
+[2017-01-07 16:44:32] CLIENT: Attaching controller XInput Controller with ID 4
+[2017-01-07 16:44:32] CLIENT: Got control packet k_EStreamControlSetQoS
+[2017-01-07 16:44:32] Streaming started to Steam Link build 566 at 192.168.0.169:57477, audio channels = 2, MTU = 1468
+[2017-01-07 16:44:32] Streaming quality: k_EStreamQualityFast
+[2017-01-07 16:44:32] Streaming bitrate: Automatic
+[2017-01-07 16:44:32] Maximum capture: 1920x1080 59.94 FPS
+[2017-01-07 16:44:32] Video Streaming: enabled
+[2017-01-07 16:44:32] Audio Streaming: enabled
+[2017-01-07 16:44:32] Input Streaming: enabled
+[2017-01-07 16:44:32] =====================================================================
+[2017-01-07 16:44:32] Game: UNKNOWN (0)
+[2017-01-07 16:44:32] Recording system audio
+[2017-01-07 16:44:32] Changing record window: 0004035C
+[2017-01-07 16:44:32] Recording on device: Speakers (Yeti Stereo Microphone)
+[2017-01-07 16:44:32] Audio client mix format:
+[2017-01-07 16:44:32] 	format: 65534
+[2017-01-07 16:44:32] 	channels: 2
+[2017-01-07 16:44:32] 	samples/sec: 48000
+[2017-01-07 16:44:32] 	bytes/sec: 384000
+[2017-01-07 16:44:32] 	alignment: 8
+[2017-01-07 16:44:32] 	bits/sample: 32
+[2017-01-07 16:44:32] 	channel mask: 0x3
+[2017-01-07 16:44:32] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2017-01-07 16:44:32] Initializing audio with 2 channels and 48000 samples/sec
+[2017-01-07 16:44:32] Audio mix: start=159570601, returned=0
+[2017-01-07 16:44:32] Audio source [System Windows]: init=0, through=0, last_start=0, mixed=0, drop_before=0, drop_after=0
+[2017-01-07 16:44:33] >>> Switching video stream from NONE to Desktop_MovieStream
+[2017-01-07 16:44:33] CLIENT: Sending HID device 28de/1142/0 Valve Software Steam Controller at /dev/hidraw0
+[2017-01-07 16:44:33] CLIENT: Sending HID device 28de/1142/1 Valve Software Steam Controller at /dev/hidraw1
+[2017-01-07 16:44:33] CLIENT: Sending HID device 28de/1142/2 Valve Software Steam Controller at /dev/hidraw2
+[2017-01-07 16:44:33] CLIENT: Sending HID device 28de/1142/3 Valve Software Steam Controller at /dev/hidraw3
+[2017-01-07 16:44:33] CLIENT: Sending HID device 28de/1142/4 Valve Software Steam Controller at /dev/hidraw4
+[2017-01-07 16:44:33] CLIENT: Sending HID device 045e/028e/-1  XInput Controller at sdl://0
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 16:44:33] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2017-01-07 16:44:33] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlSetIcon
+[2017-01-07 16:44:33] CDesktopCaptureNV: Unsupported device or driver
+[2017-01-07 16:44:33] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x11e3c
+[2017-01-07 16:44:33] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 16:44:33] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 16:44:33] >>> Capture resolution set to 1920x1080
+[2017-01-07 16:44:33] >>> Client video decoder set to Marvell hardware decoding
+[2017-01-07 16:44:33] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 16:44:33] CLIENT: Marvell hardware decoding
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 16:44:33] CLIENT: Video overflow (416.60ms queued), requesting keyframe synchronization
+[2017-01-07 16:44:33] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 16:44:33] CLIENT: Marking frame 3 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:44:33] CLIENT: Marking frame 4 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:44:33] CLIENT: Marking frame 5 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:44:33] CLIENT: Marking frame 6 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:44:33] CLIENT: Marking frame 7 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 16:44:33] CLIENT: Marking frame 1 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 16:44:33] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 16:44:35] CLIENT: Flushing audio, 106 ms queued, 70 ms maximum, delivery delay = 10
+[2017-01-07 16:44:35] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 16:44:39] Over 960 sample audio gap
+[2017-01-07 16:44:42] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x11e3c
+[2017-01-07 16:44:42] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 16:44:45] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:44:45] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 16:44:45] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 16:44:45] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:44:51] Changing record window: 000103E4
+[2017-01-07 16:44:51] "SessionStats"
+{
+	"GameNameID"		"Steam Big Picture"
+	"TimeSubmitted"		"1483836291"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Steam D3D10 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"7.3802976608276367"
+	"StdDevClientBitrate"		"11.916054725646973"
+	"AvgServerBitrate"		"4470.80078125"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0"
+	"StdDevPingMS"		"0"
+	"AvgCaptureMS"		"0.85880297422409058"
+	"StdDevCaptureMS"		"1.0613692998886108"
+	"AvgConvertMS"		"0.068476386368274689"
+	"StdDevConvertMS"		"1.4539918899536133"
+	"AvgEncodeMS"		"7.5975255966186523"
+	"StdDevEncodeMS"		"1.8056238889694214"
+	"AvgNetworkMS"		"2.900848388671875"
+	"StdDevNetworkMS"		"2.6421926021575928"
+	"AvgDecodeMS"		"1.3051259517669678"
+	"StdDevDecodeMS"		"0.39530372619628906"
+	"AvgDisplayMS"		"0.013862221501767635"
+	"StdDevDisplayMS"		"0.058089219033718109"
+	"AvgFrameMS"		"21.128631591796875"
+	"StdDevFrameMS"		"9.536229133605957"
+	"AvgFPS"		"62.029937744140625"
+	"StdDevFPS"		"29.927839279174805"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 16:44:51] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 16:44:51] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 16:44:51] >>> Capture method set to Desktop BitBlt RGB + libyuv + NVENC H264
+[2017-01-07 16:44:51] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 16:44:52] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:44:52] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 16:44:52] >>> Capture resolution set to 696x502
+[2017-01-07 16:44:52] CLIENT: Video size: 696x502, output size: 1920x1080
+[2017-01-07 16:44:53] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 16:45:14] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:14] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:15] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:16] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:16] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:16] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:28] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:29] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 16:45:29] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:29] "SessionStats"
+{
+	"GameNameID"		"Desktop"
+	"TimeSubmitted"		"1483836329"
+	"ResolutionX"		"696"
+	"ResolutionY"		"502"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"5000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.7375855445861816"
+	"StdDevClientBitrate"		"0.90861010551452637"
+	"AvgServerBitrate"		"1383.342041015625"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0.00082479941193014383"
+	"StdDevPingMS"		"0.0034979772754013538"
+	"AvgCaptureMS"		"22.350236892700195"
+	"StdDevCaptureMS"		"7.8596587181091309"
+	"AvgConvertMS"		"0.37496188282966614"
+	"StdDevConvertMS"		"0.26585695147514343"
+	"AvgEncodeMS"		"1.3879591226577759"
+	"StdDevEncodeMS"		"0.56379127502441406"
+	"AvgNetworkMS"		"1.3855314254760742"
+	"StdDevNetworkMS"		"1.5925017595291138"
+	"AvgDecodeMS"		"1.1397292613983154"
+	"StdDevDecodeMS"		"0.15539290010929108"
+	"AvgDisplayMS"		"0.0093325069174170494"
+	"StdDevDisplayMS"		"0.015399720519781113"
+	"AvgFrameMS"		"38.684307098388672"
+	"StdDevFrameMS"		"4.2538933753967285"
+	"AvgFPS"		"50.32220458984375"
+	"StdDevFPS"		"16.978195190429687"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 16:45:29] >>> Capture resolution set to 1920x1080
+[2017-01-07 16:45:29] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 16:45:30] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 16:45:33] Audio mix: start=159570601, returned=2876160
+[2017-01-07 16:45:33] Audio source [System Windows]: init=159590857, through=904853, last_start=904373, mixed=777120, drop_before=0, drop_after=0
+[2017-01-07 16:45:53] Changing record window: 00020402
+[2017-01-07 16:45:55] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:55] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 16:45:55] "SessionStats"
+{
+	"GameNameID"		"Desktop"
+	"TimeSubmitted"		"1483836355"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.4269864559173584"
+	"StdDevClientBitrate"		"0.37312319874763489"
+	"AvgServerBitrate"		"1533.0440673828125"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0"
+	"StdDevPingMS"		"0"
+	"AvgCaptureMS"		"18.433795928955078"
+	"StdDevCaptureMS"		"5.1124873161315918"
+	"AvgConvertMS"		"2.0521712303161621"
+	"StdDevConvertMS"		"0.22985698282718658"
+	"AvgEncodeMS"		"5.7231893539428711"
+	"StdDevEncodeMS"		"0.8824012279510498"
+	"AvgNetworkMS"		"0.42990618944168091"
+	"StdDevNetworkMS"		"0.92763501405715942"
+	"AvgDecodeMS"		"1.1655088663101196"
+	"StdDevDecodeMS"		"0.26434570550918579"
+	"AvgDisplayMS"		"0.013277863152325153"
+	"StdDevDisplayMS"		"0.037863921374082565"
+	"AvgFrameMS"		"42.500106811523438"
+	"StdDevFrameMS"		"3.6076722145080566"
+	"AvgFPS"		"57.644287109375"
+	"StdDevFPS"		"14.779356002807617"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 16:45:55] >>> Capture method set to Desktop DWM NV12 + NVENC H264
+[2017-01-07 16:45:55] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 16:45:55] CLIENT: Got control packet k_EStreamControlSetIcon
+[2017-01-07 16:45:55] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:55] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 16:45:55] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 16:45:55] Over 960 sample audio gap
+[2017-01-07 16:45:56] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 16:45:56] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 16:45:56] >>> Switching video stream from Desktop_MovieStream to GameOverlay_MovieStream_5944
+[2017-01-07 16:45:56] >>> Capture method set to Game polled D3D11 NV12 + NVENC H264
+[2017-01-07 16:45:56] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 16:46:33] Audio mix: start=159570601, returned=5760960
+[2017-01-07 16:46:33] Audio source [System Windows]: init=159590857, through=5761455, last_start=5760975, mixed=1794240, drop_before=0, drop_after=0
+[2017-01-07 16:47:33] Audio mix: start=159570601, returned=8640960
+[2017-01-07 16:47:33] Audio source [System Windows]: init=159590857, through=8641455, last_start=8640975, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:48:33] Audio mix: start=159570601, returned=11520960
+[2017-01-07 16:48:33] Audio source [System Windows]: init=159590857, through=11521455, last_start=11520975, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:49:33] Audio mix: start=159570601, returned=14401440
+[2017-01-07 16:49:33] Audio source [System Windows]: init=159590857, through=14401935, last_start=14401455, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:50:33] Audio mix: start=159570601, returned=17281920
+[2017-01-07 16:50:33] Audio source [System Windows]: init=159590857, through=17282415, last_start=17281935, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:51:33] Audio mix: start=159570601, returned=20162400
+[2017-01-07 16:51:33] Audio source [System Windows]: init=159590857, through=20162895, last_start=20162415, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:52:33] Audio mix: start=159570601, returned=23042880
+[2017-01-07 16:52:33] Audio source [System Windows]: init=159590857, through=23043375, last_start=23042895, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:53:33] Audio mix: start=159570601, returned=25923360
+[2017-01-07 16:53:33] Audio source [System Windows]: init=159590857, through=25923855, last_start=25923375, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:54:33] Audio mix: start=159570601, returned=28803360
+[2017-01-07 16:54:33] Audio source [System Windows]: init=159590857, through=28803855, last_start=28803375, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:55:33] Audio mix: start=159570601, returned=31683840
+[2017-01-07 16:55:33] Audio source [System Windows]: init=159590857, through=31684335, last_start=31683855, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:56:33] Audio mix: start=159570601, returned=34563840
+[2017-01-07 16:56:33] Audio source [System Windows]: init=159590857, through=34564335, last_start=34563855, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:57:33] Audio mix: start=159570601, returned=37443840
+[2017-01-07 16:57:33] Audio source [System Windows]: init=159590857, through=37444335, last_start=37443855, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 16:58:33] Audio mix: start=159570601, returned=40324320
+[2017-01-07 16:58:33] Audio source [System Windows]: init=159590857, through=40324815, last_start=40324335, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 16:59:33] Audio mix: start=159570601, returned=43204320
+[2017-01-07 16:59:33] Audio source [System Windows]: init=159590857, through=43204815, last_start=43204335, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:00:33] Audio mix: start=159570601, returned=46084800
+[2017-01-07 17:00:33] Audio source [System Windows]: init=159590857, through=46085295, last_start=46084815, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:01:33] Audio mix: start=159570601, returned=48964800
+[2017-01-07 17:01:33] Audio source [System Windows]: init=159590857, through=48965295, last_start=48964815, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:02:33] Audio mix: start=159570601, returned=51845280
+[2017-01-07 17:02:33] Audio source [System Windows]: init=159590857, through=51845775, last_start=51845295, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:03:33] Audio mix: start=159570601, returned=54725760
+[2017-01-07 17:03:33] Audio source [System Windows]: init=159590857, through=54726255, last_start=54725775, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:03:48] Over 960 sample audio gap
+[2017-01-07 17:04:33] Audio mix: start=159570601, returned=57604800
+[2017-01-07 17:04:33] Audio source [System Windows]: init=159590857, through=57605295, last_start=57604815, mixed=2879055, drop_before=945, drop_after=0
+[2017-01-07 17:05:33] Audio mix: start=159570601, returned=60485280
+[2017-01-07 17:05:33] Audio source [System Windows]: init=159590857, through=60485775, last_start=60485295, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:06:33] Audio mix: start=159570601, returned=63365760
+[2017-01-07 17:06:33] Audio source [System Windows]: init=159590857, through=63366255, last_start=63365775, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:07:33] Audio mix: start=159570601, returned=66245760
+[2017-01-07 17:07:33] Audio source [System Windows]: init=159590857, through=66246255, last_start=66245775, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:08:33] Audio mix: start=159570601, returned=69126240
+[2017-01-07 17:08:33] Audio source [System Windows]: init=159590857, through=69126735, last_start=69126255, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:09:33] Audio mix: start=159570601, returned=72006240
+[2017-01-07 17:09:33] Audio source [System Windows]: init=159590857, through=72006735, last_start=72006255, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:10:33] Audio mix: start=159570601, returned=74886720
+[2017-01-07 17:10:33] Audio source [System Windows]: init=159590857, through=74887215, last_start=74886735, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:11:33] Audio mix: start=159570601, returned=77767200
+[2017-01-07 17:11:33] Audio source [System Windows]: init=159590857, through=77767695, last_start=77767215, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:12:33] Audio mix: start=159570601, returned=80647200
+[2017-01-07 17:12:33] Audio source [System Windows]: init=159590857, through=80647695, last_start=80647215, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:13:33] Audio mix: start=159570601, returned=83527200
+[2017-01-07 17:13:33] Audio source [System Windows]: init=159590857, through=83527695, last_start=83527215, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:14:33] Audio mix: start=159570601, returned=86407680
+[2017-01-07 17:14:33] Audio source [System Windows]: init=159590857, through=86408175, last_start=86407695, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:15:33] Audio mix: start=159570601, returned=89288160
+[2017-01-07 17:15:33] Audio source [System Windows]: init=159590857, through=89288655, last_start=89288175, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:16:33] Audio mix: start=159570601, returned=92168160
+[2017-01-07 17:16:33] Audio source [System Windows]: init=159590857, through=92168655, last_start=92168175, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:17:33] Audio mix: start=159570601, returned=95048640
+[2017-01-07 17:17:33] Audio source [System Windows]: init=159590857, through=95049135, last_start=95048655, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:18:07] Over 960 sample audio gap
+[2017-01-07 17:18:33] Audio mix: start=159570601, returned=97928160
+[2017-01-07 17:18:33] Audio source [System Windows]: init=159590857, through=97928655, last_start=97928175, mixed=2879535, drop_before=945, drop_after=0
+[2017-01-07 17:19:33] Audio mix: start=159570601, returned=100808640
+[2017-01-07 17:19:33] Audio source [System Windows]: init=159590857, through=100809135, last_start=100808655, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:20:33] Audio mix: start=159570601, returned=103688640
+[2017-01-07 17:20:33] Audio source [System Windows]: init=159590857, through=103689135, last_start=103688655, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:21:33] Audio mix: start=159570601, returned=106569120
+[2017-01-07 17:21:33] Audio source [System Windows]: init=159590857, through=106569135, last_start=106568655, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:22:33] Audio mix: start=159570601, returned=109449120
+[2017-01-07 17:22:33] Audio source [System Windows]: init=159590857, through=109449615, last_start=109449135, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:23:33] Audio mix: start=159570601, returned=112329600
+[2017-01-07 17:23:33] Audio source [System Windows]: init=159590857, through=112330095, last_start=112329615, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:24:33] Audio mix: start=159570601, returned=115209600
+[2017-01-07 17:24:33] Audio source [System Windows]: init=159590857, through=115210095, last_start=115209615, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:25:33] Audio mix: start=159570601, returned=118090080
+[2017-01-07 17:25:33] Audio source [System Windows]: init=159590857, through=118090575, last_start=118090095, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:26:33] Audio mix: start=159570601, returned=120970080
+[2017-01-07 17:26:33] Audio source [System Windows]: init=159590857, through=120970575, last_start=120970095, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:27:33] Audio mix: start=159570601, returned=123850560
+[2017-01-07 17:27:33] Audio source [System Windows]: init=159590857, through=123851055, last_start=123850575, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:28:33] Audio mix: start=159570601, returned=126731040
+[2017-01-07 17:28:33] Audio source [System Windows]: init=159590857, through=126731535, last_start=126731055, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:29:33] Audio mix: start=159570601, returned=129611040
+[2017-01-07 17:29:33] Audio source [System Windows]: init=159590857, through=129611535, last_start=129611055, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:30:33] Audio mix: start=159570601, returned=132491520
+[2017-01-07 17:30:33] Audio source [System Windows]: init=159590857, through=132492015, last_start=132491535, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 17:31:33] Audio mix: start=159570601, returned=135371520
+[2017-01-07 17:31:33] Audio source [System Windows]: init=159590857, through=135372015, last_start=135371535, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 17:32:27] Over 960 sample audio gap
+[2017-01-07 17:32:33] Audio mix: start=159570601, returned=138251040
+[2017-01-07 17:32:33] Audio source [System Windows]: init=159590857, through=138251535, last_start=138251055, mixed=2879535, drop_before=945, drop_after=0
+[2017-01-07 17:32:39] Changing record window: 00000000
+[2017-01-07 17:32:39] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x11e3c
+[2017-01-07 17:32:39] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 17:32:39] "SessionStats"
+{
+	"GameNameID"		"Grand Theft Auto V"
+	"TimeSubmitted"		"1483839159"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Game polled D3D11 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.317983865737915"
+	"StdDevClientBitrate"		"0.1400752067565918"
+	"AvgServerBitrate"		"8893.8681640625"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0.01680922694504261"
+	"StdDevPingMS"		"0.0796503946185112"
+	"AvgCaptureMS"		"1.1740303039550781"
+	"StdDevCaptureMS"		"0.27120658755302429"
+	"AvgConvertMS"		"0.0048103793524205685"
+	"StdDevConvertMS"		"0.015719488263130188"
+	"AvgEncodeMS"		"6.9468765258789062"
+	"StdDevEncodeMS"		"2.1137251853942871"
+	"AvgNetworkMS"		"2.4753971099853516"
+	"StdDevNetworkMS"		"1.9171211719512939"
+	"AvgDecodeMS"		"1.4230775833129883"
+	"StdDevDecodeMS"		"0.46748176217079163"
+	"AvgDisplayMS"		"0.014659464359283447"
+	"StdDevDisplayMS"		"0.053571291267871857"
+	"AvgFrameMS"		"19.907817840576172"
+	"StdDevFrameMS"		"3.2509086132049561"
+	"AvgFPS"		"60.802410125732422"
+	"StdDevFPS"		"18.003713607788086"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 17:32:39] Changing record window: 0004035C
+[2017-01-07 17:32:39] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 17:32:39] >>> Switching video stream from GameOverlay_MovieStream_5944 to Desktop_MovieStream
+[2017-01-07 17:32:39] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 17:32:39] CLIENT: Got control packet k_EStreamControlSetIcon
+[2017-01-07 17:32:39] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 17:32:39] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 17:32:39] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 17:32:39] Changing record window: 000103E4
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 17:32:42] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x11e3c
+[2017-01-07 17:32:42] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 17:32:42] >>> Capture method set to Desktop BitBlt RGB + libyuv + NVENC H264
+[2017-01-07 17:32:42] >>> Capture resolution set to 696x502
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 17:32:42] CLIENT: Video size: 696x502, output size: 1920x1080
+[2017-01-07 17:32:42] Changing record window: 00000000
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 17:32:42] Changing record window: 0004035C
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 17:32:42] >>> Capture resolution set to 1920x1080
+[2017-01-07 17:32:42] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 17:32:42] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 17:32:42] CLIENT: Targeting 59.94 FPS
+[2017-01-07 17:32:42] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 17:32:43] CLIENT: Targeting 59.94 FPS
+[2017-01-07 17:32:43] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2017-01-07 17:32:46] Over 960 sample audio gap
+[2017-01-07 17:32:49] CLIENT: Got control packet k_EStreamControlSystemSuspend
+[2017-01-07 17:32:49] Changing record window: 00010374
+[2017-01-07 17:32:49] >>> Capture method set to Desktop BitBlt RGB + libyuv + NVENC H264
+[2017-01-07 17:32:50] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 17:32:50] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 17:32:50] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:50] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 17:32:51] Dropping queued frame before encoding
+[2017-01-07 19:41:16] CLIENT: Attaching controller XInput Controller with ID 4
+[2017-01-07 19:41:16] Streaming started to Steam Link build 566 at 192.168.0.169:56196, audio channels = 2, MTU = 1468
+[2017-01-07 19:41:16] Streaming quality: k_EStreamQualityFast
+[2017-01-07 19:41:16] Streaming bitrate: Automatic
+[2017-01-07 19:41:16] Maximum capture: 1920x1080 59.94 FPS
+[2017-01-07 19:41:16] Video Streaming: enabled
+[2017-01-07 19:41:16] Audio Streaming: enabled
+[2017-01-07 19:41:16] Input Streaming: enabled
+[2017-01-07 19:41:16] =====================================================================
+[2017-01-07 19:41:16] Game: UNKNOWN (0)
+[2017-01-07 19:41:16] Recording system audio
+[2017-01-07 19:41:16] Recording on device: Speakers (Yeti Stereo Microphone)
+[2017-01-07 19:41:16] Audio client mix format:
+[2017-01-07 19:41:16] 	format: 65534
+[2017-01-07 19:41:16] 	channels: 2
+[2017-01-07 19:41:16] 	samples/sec: 48000
+[2017-01-07 19:41:16] 	bytes/sec: 384000
+[2017-01-07 19:41:16] 	alignment: 8
+[2017-01-07 19:41:16] 	bits/sample: 32
+[2017-01-07 19:41:16] 	channel mask: 0x3
+[2017-01-07 19:41:16] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2017-01-07 19:41:16] Initializing audio with 2 channels and 48000 samples/sec
+[2017-01-07 19:41:16] Audio mix: start=10763125707, returned=0
+[2017-01-07 19:41:16] Audio source [System Windows]: init=0, through=0, last_start=0, mixed=0, drop_before=0, drop_after=0
+[2017-01-07 19:41:16] Changing record window: 0008008A
+[2017-01-07 19:41:16] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x11e3c
+[2017-01-07 19:41:16] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 19:41:16] >>> Switching video stream from NONE to Desktop_MovieStream
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlSetQoS
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 19:41:16] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2017-01-07 19:41:16] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2017-01-07 19:41:16] CLIENT: Sending HID device 28de/1142/0 Valve Software Steam Controller at /dev/hidraw0
+[2017-01-07 19:41:16] CLIENT: Sending HID device 28de/1142/1 Valve Software Steam Controller at /dev/hidraw1
+[2017-01-07 19:41:16] CLIENT: Sending HID device 28de/1142/2 Valve Software Steam Controller at /dev/hidraw2
+[2017-01-07 19:41:16] CLIENT: Sending HID device 28de/1142/3 Valve Software Steam Controller at /dev/hidraw3
+[2017-01-07 19:41:16] CLIENT: Sending HID device 28de/1142/4 Valve Software Steam Controller at /dev/hidraw4
+[2017-01-07 19:41:16] CLIENT: Sending HID device 045e/028e/-1  XInput Controller at sdl://0
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlSetIcon
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 19:41:16] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 19:41:17] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 19:41:17] >>> Capture resolution set to 1920x1080
+[2017-01-07 19:41:17] >>> Client video decoder set to Marvell hardware decoding
+[2017-01-07 19:41:17] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 19:41:17] CLIENT: Marvell hardware decoding
+[2017-01-07 19:41:17] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2017-01-07 19:41:17] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 19:41:17] CLIENT: Video overflow (199.63ms queued), requesting keyframe synchronization
+[2017-01-07 19:41:17] CLIENT: Marking frame 4 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 19:41:17] CLIENT: Marking frame 5 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 19:41:17] CLIENT: Marking frame 6 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 19:41:17] CLIENT: Marking frame 7 complete with status k_EStreamFrameResultDroppedReset
+[2017-01-07 19:41:17] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 19:41:17] CLIENT: Marking frame 1 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 19:41:17] CLIENT: Marking frame 2 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 19:41:17] CLIENT: Marking frame 3 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 19:41:17] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 19:41:18] CLIENT: Flushing audio, 98 ms queued, 74 ms maximum, delivery delay = 12
+[2017-01-07 19:41:18] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 19:42:14] Over 960 sample audio gap
+[2017-01-07 19:42:16] Audio mix: start=10763125707, returned=2880480
+[2017-01-07 19:42:16] Audio source [System Windows]: init=10763148957, through=2881339, last_start=2880859, mixed=255840, drop_before=0, drop_after=0
+[2017-01-07 19:42:26] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x11e3c
+[2017-01-07 19:42:26] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 19:42:33] Changing record window: 0007040E
+[2017-01-07 19:42:33] "SessionStats"
+{
+	"GameNameID"		"Steam Big Picture"
+	"TimeSubmitted"		"1483846953"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Steam D3D10 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"3.4247374534606934"
+	"StdDevClientBitrate"		"6.1990771293640137"
+	"AvgServerBitrate"		"4300.63623046875"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0"
+	"StdDevPingMS"		"0"
+	"AvgCaptureMS"		"0.80849194526672363"
+	"StdDevCaptureMS"		"0.57460463047027588"
+	"AvgConvertMS"		"0.015299147926270962"
+	"StdDevConvertMS"		"0.50141584873199463"
+	"AvgEncodeMS"		"7.0816440582275391"
+	"StdDevEncodeMS"		"1.8772814273834229"
+	"AvgNetworkMS"		"1.8734076023101807"
+	"StdDevNetworkMS"		"2.0859699249267578"
+	"AvgDecodeMS"		"1.2064031362533569"
+	"StdDevDecodeMS"		"0.32100012898445129"
+	"AvgDisplayMS"		"0.011608589440584183"
+	"StdDevDisplayMS"		"0.023614427074790001"
+	"AvgFrameMS"		"18.91346549987793"
+	"StdDevFrameMS"		"7.4374809265136719"
+	"AvgFPS"		"70.603370666503906"
+	"StdDevFPS"		"39.618728637695313"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 19:42:33] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 19:42:33] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 19:42:34] >>> Capture method set to Desktop BitBlt RGB + libyuv + NVENC H264
+[2017-01-07 19:42:34] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 19:42:35] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:35] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 19:42:35] >>> Capture resolution set to 696x502
+[2017-01-07 19:42:35] CLIENT: Video size: 696x502, output size: 1920x1080
+[2017-01-07 19:42:35] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:35] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 19:42:35] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:36] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 19:42:36] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:36] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:36] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:36] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:49] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:49] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:49] CLIENT: Got control packet k_EStreamControlSetCursorImage
+[2017-01-07 19:42:49] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 19:42:49] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:42:50] "SessionStats"
+{
+	"GameNameID"		"Desktop"
+	"TimeSubmitted"		"1483846970"
+	"ResolutionX"		"696"
+	"ResolutionY"		"502"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"5000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.841904878616333"
+	"StdDevClientBitrate"		"1.0704392194747925"
+	"AvgServerBitrate"		"936.4390869140625"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0"
+	"StdDevPingMS"		"0"
+	"AvgCaptureMS"		"33.211620330810547"
+	"StdDevCaptureMS"		"1.2019528150558472"
+	"AvgConvertMS"		"0.26641413569450378"
+	"StdDevConvertMS"		"0.21441999077796936"
+	"AvgEncodeMS"		"1.2420364618301392"
+	"StdDevEncodeMS"		"0.42799311876296997"
+	"AvgNetworkMS"		"0.22052928805351257"
+	"StdDevNetworkMS"		"0.59912705421447754"
+	"AvgDecodeMS"		"1.0809875726699829"
+	"StdDevDecodeMS"		"0.13069036602973938"
+	"AvgDisplayMS"		"0.0083164013922214508"
+	"StdDevDisplayMS"		"0.010428456589579582"
+	"AvgFrameMS"		"39.816650390625"
+	"StdDevFrameMS"		"1.8415820598602295"
+	"AvgFPS"		"30.190896987915039"
+	"StdDevFPS"		"2.2330057621002197"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 19:42:50] >>> Capture resolution set to 1920x1080
+[2017-01-07 19:42:50] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 19:42:50] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2017-01-07 19:43:12] Changing record window: 000B0252
+[2017-01-07 19:43:13] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:43:13] "SessionStats"
+{
+	"GameNameID"		"Desktop"
+	"TimeSubmitted"		"1483846993"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.4797780513763428"
+	"StdDevClientBitrate"		"0.54794585704803467"
+	"AvgServerBitrate"		"1566.8563232421875"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"0"
+	"StdDevPingMS"		"0"
+	"AvgCaptureMS"		"19.016714096069336"
+	"StdDevCaptureMS"		"5.8949813842773437"
+	"AvgConvertMS"		"2.063840389251709"
+	"StdDevConvertMS"		"0.33563339710235596"
+	"AvgEncodeMS"		"5.5975747108459473"
+	"StdDevEncodeMS"		"3.0484249591827393"
+	"AvgNetworkMS"		"0.71782809495925903"
+	"StdDevNetworkMS"		"1.6468886137008667"
+	"AvgDecodeMS"		"1.1629931926727295"
+	"StdDevDecodeMS"		"0.22123447060585022"
+	"AvgDisplayMS"		"0.011293227784335613"
+	"StdDevDisplayMS"		"0.025657441467046738"
+	"AvgFrameMS"		"43.254039764404297"
+	"StdDevFrameMS"		"3.7204298973083496"
+	"AvgFPS"		"55.671485900878906"
+	"StdDevFPS"		"13.03218936920166"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 19:43:13] CLIENT: Got control packet k_EStreamControlSetTitle
+[2017-01-07 19:43:13] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:43:13] CLIENT: Got control packet k_EStreamControlSetActivity
+[2017-01-07 19:43:13] >>> Capture method set to Desktop DWM NV12 + NVENC H264
+[2017-01-07 19:43:13] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 19:43:13] Over 960 sample audio gap
+[2017-01-07 19:43:14] CLIENT: Got control packet k_EStreamControlHideCursor
+[2017-01-07 19:43:14] CLIENT: Got control packet k_EStreamControlSetCursor
+[2017-01-07 19:43:14] >>> Switching video stream from Desktop_MovieStream to GameOverlay_MovieStream_3260
+[2017-01-07 19:43:14] >>> Capture method set to Game polled D3D11 NV12 + NVENC H264
+[2017-01-07 19:43:14] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2017-01-07 19:43:16] Audio mix: start=10763125707, returned=5760960
+[2017-01-07 19:43:16] Audio source [System Windows]: init=10763148957, through=5761561, last_start=5761081, mixed=966240, drop_before=0, drop_after=0
+[2017-01-07 19:44:16] Audio mix: start=10763125707, returned=8640960
+[2017-01-07 19:44:16] Audio source [System Windows]: init=10763148957, through=8641561, last_start=8641081, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 19:45:16] Audio mix: start=10763125707, returned=11521440
+[2017-01-07 19:45:16] Audio source [System Windows]: init=10763148957, through=11522041, last_start=11521561, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 19:46:16] Audio mix: start=10763125707, returned=14401440
+[2017-01-07 19:46:16] Audio source [System Windows]: init=10763148957, through=14402041, last_start=14401561, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 19:47:16] Audio mix: start=10763125707, returned=17281920
+[2017-01-07 19:47:16] Audio source [System Windows]: init=10763148957, through=17282521, last_start=17282041, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 19:48:16] Audio mix: start=10763125707, returned=20161920
+[2017-01-07 19:48:16] Audio source [System Windows]: init=10763148957, through=20162521, last_start=20162041, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 19:49:16] Audio mix: start=10763125707, returned=23042880
+[2017-01-07 19:49:16] Audio source [System Windows]: init=10763148957, through=23043481, last_start=23043001, mixed=2880960, drop_before=0, drop_after=0
+[2017-01-07 19:50:16] Audio mix: start=10763125707, returned=25922880
+[2017-01-07 19:50:16] Audio source [System Windows]: init=10763148957, through=25923481, last_start=25923001, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 19:51:16] Audio mix: start=10763125707, returned=28803360
+[2017-01-07 19:51:16] Audio source [System Windows]: init=10763148957, through=28803961, last_start=28803481, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 19:52:16] Audio mix: start=10763125707, returned=31683360
+[2017-01-07 19:52:16] Audio source [System Windows]: init=10763148957, through=31683961, last_start=31683481, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 19:53:16] Audio mix: start=10763125707, returned=34563840
+[2017-01-07 19:53:16] Audio source [System Windows]: init=10763148957, through=34564441, last_start=34563961, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 19:54:16] Audio mix: start=10763125707, returned=37444320
+[2017-01-07 19:54:16] Audio source [System Windows]: init=10763148957, through=37444921, last_start=37444441, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 19:55:16] Audio mix: start=10763125707, returned=40324800
+[2017-01-07 19:55:16] Audio source [System Windows]: init=10763148957, through=40325401, last_start=40324921, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 19:56:16] Audio mix: start=10763125707, returned=43204800
+[2017-01-07 19:56:16] Audio source [System Windows]: init=10763148957, through=43205401, last_start=43204921, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 19:57:16] Audio mix: start=10763125707, returned=46085280
+[2017-01-07 19:57:16] Audio source [System Windows]: init=10763148957, through=46085881, last_start=46085401, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 19:58:16] Audio mix: start=10763125707, returned=48965280
+[2017-01-07 19:58:16] Audio source [System Windows]: init=10763148957, through=48965881, last_start=48965401, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 19:59:16] Audio mix: start=10763125707, returned=51845280
+[2017-01-07 19:59:16] Audio source [System Windows]: init=10763148957, through=51845881, last_start=51845401, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:00:16] Audio mix: start=10763125707, returned=54725760
+[2017-01-07 20:00:16] Audio source [System Windows]: init=10763148957, through=54726841, last_start=54726361, mixed=2880960, drop_before=0, drop_after=0
+[2017-01-07 20:01:06] Over 960 sample audio gap
+[2017-01-07 20:01:16] Audio mix: start=10763125707, returned=57605280
+[2017-01-07 20:01:16] Audio source [System Windows]: init=10763148957, through=57605881, last_start=57605401, mixed=2879161, drop_before=839, drop_after=0
+[2017-01-07 20:02:16] Audio mix: start=10763125707, returned=60485280
+[2017-01-07 20:02:16] Audio source [System Windows]: init=10763148957, through=60485881, last_start=60485401, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:03:16] Audio mix: start=10763125707, returned=63365760
+[2017-01-07 20:03:16] Audio source [System Windows]: init=10763148957, through=63366361, last_start=63365881, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:04:16] Audio mix: start=10763125707, returned=66246240
+[2017-01-07 20:04:16] Audio source [System Windows]: init=10763148957, through=66246841, last_start=66246361, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:05:16] Audio mix: start=10763125707, returned=69126240
+[2017-01-07 20:05:16] Audio source [System Windows]: init=10763148957, through=69126841, last_start=69126361, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:06:16] Audio mix: start=10763125707, returned=72006720
+[2017-01-07 20:06:16] Audio source [System Windows]: init=10763148957, through=72007321, last_start=72006841, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:07:16] Audio mix: start=10763125707, returned=74886720
+[2017-01-07 20:07:16] Audio source [System Windows]: init=10763148957, through=74887321, last_start=74886841, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:08:16] Audio mix: start=10763125707, returned=77767200
+[2017-01-07 20:08:16] Audio source [System Windows]: init=10763148957, through=77767801, last_start=77767321, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:09:16] Audio mix: start=10763125707, returned=80647200
+[2017-01-07 20:09:16] Audio source [System Windows]: init=10763148957, through=80647801, last_start=80647321, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:10:16] Audio mix: start=10763125707, returned=83527680
+[2017-01-07 20:10:16] Audio source [System Windows]: init=10763148957, through=83528281, last_start=83527801, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:11:17] Audio mix: start=10763125707, returned=86408160
+[2017-01-07 20:11:17] Audio source [System Windows]: init=10763148957, through=86408761, last_start=86408281, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:12:17] Audio mix: start=10763125707, returned=89288640
+[2017-01-07 20:12:17] Audio source [System Windows]: init=10763148957, through=89289241, last_start=89288761, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:13:17] Audio mix: start=10763125707, returned=92169120
+[2017-01-07 20:13:17] Audio source [System Windows]: init=10763148957, through=92169721, last_start=92169241, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:14:17] Audio mix: start=10763125707, returned=95049120
+[2017-01-07 20:14:17] Audio source [System Windows]: init=10763148957, through=95049721, last_start=95049241, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:15:17] Audio mix: start=10763125707, returned=97929120
+[2017-01-07 20:15:17] Audio source [System Windows]: init=10763148957, through=97929721, last_start=97929241, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:15:26] Over 960 sample audio gap
+[2017-01-07 20:16:17] Audio mix: start=10763125707, returned=100808640
+[2017-01-07 20:16:17] Audio source [System Windows]: init=10763148957, through=100809241, last_start=100808761, mixed=2879641, drop_before=839, drop_after=0
+[2017-01-07 20:17:17] Audio mix: start=10763125707, returned=103688640
+[2017-01-07 20:17:17] Audio source [System Windows]: init=10763148957, through=103689241, last_start=103688761, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:18:17] Audio mix: start=10763125707, returned=106569120
+[2017-01-07 20:18:17] Audio source [System Windows]: init=10763148957, through=106569721, last_start=106569241, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:19:17] Audio mix: start=10763125707, returned=109449120
+[2017-01-07 20:19:17] Audio source [System Windows]: init=10763148957, through=109449721, last_start=109449241, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:20:17] Audio mix: start=10763125707, returned=112329600
+[2017-01-07 20:20:17] Audio source [System Windows]: init=10763148957, through=112330201, last_start=112329721, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:21:17] Audio mix: start=10763125707, returned=115210080
+[2017-01-07 20:21:17] Audio source [System Windows]: init=10763148957, through=115210681, last_start=115210201, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:22:17] Audio mix: start=10763125707, returned=118090080
+[2017-01-07 20:22:17] Audio source [System Windows]: init=10763148957, through=118090681, last_start=118090201, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:23:17] Audio mix: start=10763125707, returned=120970560
+[2017-01-07 20:23:17] Audio source [System Windows]: init=10763148957, through=120971161, last_start=120970681, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:24:17] Audio mix: start=10763125707, returned=123850560
+[2017-01-07 20:24:17] Audio source [System Windows]: init=10763148957, through=123851161, last_start=123850681, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:25:17] Audio mix: start=10763125707, returned=126731040
+[2017-01-07 20:25:17] Audio source [System Windows]: init=10763148957, through=126731641, last_start=126731161, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:26:17] Audio mix: start=10763125707, returned=129611040
+[2017-01-07 20:26:17] Audio source [System Windows]: init=10763148957, through=129611641, last_start=129611161, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:27:17] Audio mix: start=10763125707, returned=132491040
+[2017-01-07 20:27:17] Audio source [System Windows]: init=10763148957, through=132491641, last_start=132491161, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:28:17] Audio mix: start=10763125707, returned=135371040
+[2017-01-07 20:28:17] Audio source [System Windows]: init=10763148957, through=135371641, last_start=135371161, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:29:17] Audio mix: start=10763125707, returned=138251040
+[2017-01-07 20:29:17] Audio source [System Windows]: init=10763148957, through=138251641, last_start=138251161, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:29:45] Over 960 sample audio gap
+[2017-01-07 20:30:17] Audio mix: start=10763125707, returned=141130560
+[2017-01-07 20:30:17] Audio source [System Windows]: init=10763148957, through=141131161, last_start=141130681, mixed=2879641, drop_before=839, drop_after=0
+[2017-01-07 20:31:17] Audio mix: start=10763125707, returned=144010560
+[2017-01-07 20:31:17] Audio source [System Windows]: init=10763148957, through=144011161, last_start=144010681, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:32:17] Audio mix: start=10763125707, returned=146890560
+[2017-01-07 20:32:17] Audio source [System Windows]: init=10763148957, through=146891161, last_start=146890681, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:33:17] Audio mix: start=10763125707, returned=149771040
+[2017-01-07 20:33:17] Audio source [System Windows]: init=10763148957, through=149771641, last_start=149771161, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:34:17] Audio mix: start=10763125707, returned=152651520
+[2017-01-07 20:34:17] Audio source [System Windows]: init=10763148957, through=152652121, last_start=152651641, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:35:17] Audio mix: start=10763125707, returned=155531520
+[2017-01-07 20:35:17] Audio source [System Windows]: init=10763148957, through=155532121, last_start=155531641, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:36:17] Audio mix: start=10763125707, returned=158411520
+[2017-01-07 20:36:17] Audio source [System Windows]: init=10763148957, through=158412601, last_start=158412121, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:37:17] Audio mix: start=10763125707, returned=161292480
+[2017-01-07 20:37:17] Audio source [System Windows]: init=10763148957, through=161293081, last_start=161292601, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:38:17] Audio mix: start=10763125707, returned=164172480
+[2017-01-07 20:38:17] Audio source [System Windows]: init=10763148957, through=164173081, last_start=164172601, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:39:17] Audio mix: start=10763125707, returned=167052480
+[2017-01-07 20:39:17] Audio source [System Windows]: init=10763148957, through=167053081, last_start=167052601, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:40:17] Audio mix: start=10763125707, returned=169932960
+[2017-01-07 20:40:17] Audio source [System Windows]: init=10763148957, through=169933561, last_start=169933081, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:41:17] Audio mix: start=10763125707, returned=172812960
+[2017-01-07 20:41:17] Audio source [System Windows]: init=10763148957, through=172813561, last_start=172813081, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:42:17] Audio mix: start=10763125707, returned=175693440
+[2017-01-07 20:42:17] Audio source [System Windows]: init=10763148957, through=175694041, last_start=175693561, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:43:17] Audio mix: start=10763125707, returned=178573920
+[2017-01-07 20:43:17] Audio source [System Windows]: init=10763148957, through=178574521, last_start=178574041, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:44:04] Over 960 sample audio gap
+[2017-01-07 20:44:17] Audio mix: start=10763125707, returned=181453440
+[2017-01-07 20:44:17] Audio source [System Windows]: init=10763148957, through=181454041, last_start=181453561, mixed=2879641, drop_before=839, drop_after=0
+[2017-01-07 20:45:17] Audio mix: start=10763125707, returned=184333440
+[2017-01-07 20:45:17] Audio source [System Windows]: init=10763148957, through=184334521, last_start=184334041, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:46:17] Audio mix: start=10763125707, returned=187213920
+[2017-01-07 20:46:17] Audio source [System Windows]: init=10763148957, through=187214521, last_start=187214041, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:47:17] Audio mix: start=10763125707, returned=190094400
+[2017-01-07 20:47:17] Audio source [System Windows]: init=10763148957, through=190095001, last_start=190094521, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:48:17] Audio mix: start=10763125707, returned=192974400
+[2017-01-07 20:48:17] Audio source [System Windows]: init=10763148957, through=192975001, last_start=192974521, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:49:17] Audio mix: start=10763125707, returned=195854880
+[2017-01-07 20:49:17] Audio source [System Windows]: init=10763148957, through=195855481, last_start=195855001, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:50:17] Audio mix: start=10763125707, returned=198734880
+[2017-01-07 20:50:17] Audio source [System Windows]: init=10763148957, through=198735961, last_start=198735481, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:51:17] Audio mix: start=10763125707, returned=201615360
+[2017-01-07 20:51:17] Audio source [System Windows]: init=10763148957, through=201615961, last_start=201615481, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:52:17] Audio mix: start=10763125707, returned=204495840
+[2017-01-07 20:52:17] Audio source [System Windows]: init=10763148957, through=204496441, last_start=204495961, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:53:17] Audio mix: start=10763125707, returned=207376320
+[2017-01-07 20:53:17] Audio source [System Windows]: init=10763148957, through=207376921, last_start=207376441, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:54:17] Audio mix: start=10763125707, returned=210256320
+[2017-01-07 20:54:17] Audio source [System Windows]: init=10763148957, through=210256921, last_start=210256441, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:55:17] Audio mix: start=10763125707, returned=213136320
+[2017-01-07 20:55:17] Audio source [System Windows]: init=10763148957, through=213136921, last_start=213136441, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:56:17] Audio mix: start=10763125707, returned=216016800
+[2017-01-07 20:56:17] Audio source [System Windows]: init=10763148957, through=216017401, last_start=216016921, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:57:17] Audio mix: start=10763125707, returned=218897280
+[2017-01-07 20:57:17] Audio source [System Windows]: init=10763148957, through=218897881, last_start=218897401, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 20:58:17] Audio mix: start=10763125707, returned=221777280
+[2017-01-07 20:58:17] Audio source [System Windows]: init=10763148957, through=221777881, last_start=221777401, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 20:58:23] Over 960 sample audio gap
+[2017-01-07 20:59:17] Audio mix: start=10763125707, returned=224656800
+[2017-01-07 20:59:17] Audio source [System Windows]: init=10763148957, through=224657401, last_start=224656921, mixed=2880121, drop_before=359, drop_after=0
+[2017-01-07 21:00:17] Audio mix: start=10763125707, returned=227537280
+[2017-01-07 21:00:17] Audio source [System Windows]: init=10763148957, through=227537881, last_start=227537401, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:01:17] Audio mix: start=10763125707, returned=230417280
+[2017-01-07 21:01:17] Audio source [System Windows]: init=10763148957, through=230417881, last_start=230417401, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:02:17] Audio mix: start=10763125707, returned=233297760
+[2017-01-07 21:02:17] Audio source [System Windows]: init=10763148957, through=233298361, last_start=233297881, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:03:17] Audio mix: start=10763125707, returned=236178240
+[2017-01-07 21:03:17] Audio source [System Windows]: init=10763148957, through=236178841, last_start=236178361, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:04:17] Audio mix: start=10763125707, returned=239058720
+[2017-01-07 21:04:17] Audio source [System Windows]: init=10763148957, through=239059321, last_start=239058841, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:05:17] Audio mix: start=10763125707, returned=241938720
+[2017-01-07 21:05:17] Audio source [System Windows]: init=10763148957, through=241939321, last_start=241938841, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:06:17] Audio mix: start=10763125707, returned=244819200
+[2017-01-07 21:06:17] Audio source [System Windows]: init=10763148957, through=244819801, last_start=244819321, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:07:17] Audio mix: start=10763125707, returned=247699680
+[2017-01-07 21:07:17] Audio source [System Windows]: init=10763148957, through=247700281, last_start=247699801, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:08:17] Audio mix: start=10763125707, returned=250579680
+[2017-01-07 21:08:17] Audio source [System Windows]: init=10763148957, through=250580281, last_start=250579801, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:09:17] Audio mix: start=10763125707, returned=253460160
+[2017-01-07 21:09:17] Audio source [System Windows]: init=10763148957, through=253460761, last_start=253460281, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:10:17] Audio mix: start=10763125707, returned=256340160
+[2017-01-07 21:10:17] Audio source [System Windows]: init=10763148957, through=256340761, last_start=256340281, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:11:17] Audio mix: start=10763125707, returned=259220160
+[2017-01-07 21:11:17] Audio source [System Windows]: init=10763148957, through=259220761, last_start=259220281, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:12:17] Audio mix: start=10763125707, returned=262100640
+[2017-01-07 21:12:17] Audio source [System Windows]: init=10763148957, through=262101721, last_start=262101241, mixed=2880960, drop_before=0, drop_after=0
+[2017-01-07 21:12:42] Over 960 sample audio gap
+[2017-01-07 21:13:05] CLIENT: Flushing audio, 581 ms queued, 78 ms maximum, delivery delay = 14
+[2017-01-07 21:13:05] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:06] CLIENT: Flushing audio, 548 ms queued, 78 ms maximum, delivery delay = 14
+[2017-01-07 21:13:06] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:07] CLIENT: Flushing audio, 538 ms queued, 78 ms maximum, delivery delay = 14
+[2017-01-07 21:13:07] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:08] CLIENT: Flushing audio, 528 ms queued, 66 ms maximum, delivery delay = 8
+[2017-01-07 21:13:08] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:09] CLIENT: Flushing audio, 528 ms queued, 66 ms maximum, delivery delay = 8
+[2017-01-07 21:13:09] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:10] CLIENT: Flushing audio, 510 ms queued, 66 ms maximum, delivery delay = 8
+[2017-01-07 21:13:10] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:11] CLIENT: Flushing audio, 510 ms queued, 60 ms maximum, delivery delay = 5
+[2017-01-07 21:13:11] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:12] CLIENT: Flushing audio, 500 ms queued, 60 ms maximum, delivery delay = 5
+[2017-01-07 21:13:12] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:13] CLIENT: Flushing audio, 491 ms queued, 60 ms maximum, delivery delay = 5
+[2017-01-07 21:13:13] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:14] CLIENT: Flushing audio, 468 ms queued, 58 ms maximum, delivery delay = 4
+[2017-01-07 21:13:14] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:15] CLIENT: Flushing audio, 448 ms queued, 58 ms maximum, delivery delay = 4
+[2017-01-07 21:13:15] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:16] CLIENT: Flushing audio, 428 ms queued, 58 ms maximum, delivery delay = 4
+[2017-01-07 21:13:16] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:17] CLIENT: Flushing audio, 428 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:17] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:17] Audio mix: start=10763125707, returned=264980160
+[2017-01-07 21:13:17] Audio source [System Windows]: init=10763148957, through=264980761, last_start=264980281, mixed=2879161, drop_before=839, drop_after=0
+[2017-01-07 21:13:18] CLIENT: Flushing audio, 408 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:18] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:19] CLIENT: Flushing audio, 400 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:19] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:20] CLIENT: Flushing audio, 390 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:20] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:21] CLIENT: Flushing audio, 382 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:21] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:22] CLIENT: Flushing audio, 362 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:22] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:23] CLIENT: Flushing audio, 352 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:23] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:24] CLIENT: Flushing audio, 342 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:24] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:25] CLIENT: Flushing audio, 341 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:25] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:26] CLIENT: Flushing audio, 308 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:26] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:27] CLIENT: Flushing audio, 308 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:27] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:28] CLIENT: Flushing audio, 300 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:28] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:29] CLIENT: Flushing audio, 282 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:29] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:30] CLIENT: Flushing audio, 282 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:30] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:31] CLIENT: Flushing audio, 258 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:31] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:32] CLIENT: Flushing audio, 248 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:32] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:33] CLIENT: Flushing audio, 248 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:33] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:34] CLIENT: Flushing audio, 230 ms queued, 56 ms maximum, delivery delay = 3
+[2017-01-07 21:13:34] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:35] CLIENT: Flushing audio, 222 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:35] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:36] CLIENT: Flushing audio, 212 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:36] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:37] CLIENT: Flushing audio, 202 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:37] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:38] CLIENT: Flushing audio, 201 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:38] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:39] CLIENT: Flushing audio, 168 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:39] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:40] CLIENT: Flushing audio, 168 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:40] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:41] CLIENT: Flushing audio, 158 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:41] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:42] CLIENT: Flushing audio, 150 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:42] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:43] CLIENT: Flushing audio, 142 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:13:43] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:44] CLIENT: Flushing audio, 132 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:44] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:45] CLIENT: Flushing audio, 131 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:45] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:46] CLIENT: Flushing audio, 108 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:46] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:47] CLIENT: Flushing audio, 104 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:47] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:48] CLIENT: Flushing audio, 96 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:48] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:49] CLIENT: Flushing audio, 88 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:49] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:50] CLIENT: Flushing audio, 72 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:50] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:51] CLIENT: Flushing audio, 70 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:51] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:13:52] CLIENT: Flushing audio, 62 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:13:52] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:14:03] CLIENT: Flushing audio, 54 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:14:03] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:14:17] Audio mix: start=10763125707, returned=267860640
+[2017-01-07 21:14:17] Audio source [System Windows]: init=10763148957, through=267861241, last_start=267860761, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:15:17] Audio mix: start=10763125707, returned=270740640
+[2017-01-07 21:15:17] Audio source [System Windows]: init=10763148957, through=270741241, last_start=270740761, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:16:17] Audio mix: start=10763125707, returned=273621120
+[2017-01-07 21:16:17] Audio source [System Windows]: init=10763148957, through=273621721, last_start=273621241, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:17:17] Audio mix: start=10763125707, returned=276501120
+[2017-01-07 21:17:17] Audio source [System Windows]: init=10763148957, through=276501721, last_start=276501241, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:18:17] Audio mix: start=10763125707, returned=279381600
+[2017-01-07 21:18:17] Audio source [System Windows]: init=10763148957, through=279382201, last_start=279381721, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:19:17] Audio mix: start=10763125707, returned=282262080
+[2017-01-07 21:19:17] Audio source [System Windows]: init=10763148957, through=282262681, last_start=282262201, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:20:17] Audio mix: start=10763125707, returned=285142560
+[2017-01-07 21:20:17] Audio source [System Windows]: init=10763148957, through=285143161, last_start=285142681, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:21:17] Audio mix: start=10763125707, returned=288023040
+[2017-01-07 21:21:17] Audio source [System Windows]: init=10763148957, through=288023641, last_start=288023161, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:22:14] CLIENT: Flushing audio, 56 ms queued, 54 ms maximum, delivery delay = 2
+[2017-01-07 21:22:14] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:22:17] Audio mix: start=10763125707, returned=290903520
+[2017-01-07 21:22:17] Audio source [System Windows]: init=10763148957, through=290904121, last_start=290903641, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:23:17] Audio mix: start=10763125707, returned=293783520
+[2017-01-07 21:23:17] Audio source [System Windows]: init=10763148957, through=293784121, last_start=293783641, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:24:17] Audio mix: start=10763125707, returned=296664000
+[2017-01-07 21:24:17] Audio source [System Windows]: init=10763148957, through=296664601, last_start=296664121, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:25:17] Audio mix: start=10763125707, returned=299544480
+[2017-01-07 21:25:17] Audio source [System Windows]: init=10763148957, through=299545081, last_start=299544601, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:26:17] Audio mix: start=10763125707, returned=302424960
+[2017-01-07 21:26:17] Audio source [System Windows]: init=10763148957, through=302425561, last_start=302425081, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:27:01] Over 960 sample audio gap
+[2017-01-07 21:27:17] Audio mix: start=10763125707, returned=305304480
+[2017-01-07 21:27:17] Audio source [System Windows]: init=10763148957, through=305305080, last_start=305304600, mixed=2879640, drop_before=840, drop_after=0
+[2017-01-07 21:28:17] Audio mix: start=10763125707, returned=308184480
+[2017-01-07 21:28:17] Audio source [System Windows]: init=10763148957, through=308185080, last_start=308184600, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:29:17] Audio mix: start=10763125707, returned=311064480
+[2017-01-07 21:29:17] Audio source [System Windows]: init=10763148957, through=311065080, last_start=311064600, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:30:17] Audio mix: start=10763125707, returned=313944960
+[2017-01-07 21:30:17] Audio source [System Windows]: init=10763148957, through=313945560, last_start=313945080, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:31:17] Audio mix: start=10763125707, returned=316824960
+[2017-01-07 21:31:17] Audio source [System Windows]: init=10763148957, through=316825560, last_start=316825080, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:32:17] Audio mix: start=10763125707, returned=319704960
+[2017-01-07 21:32:17] Audio source [System Windows]: init=10763148957, through=319705560, last_start=319705080, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:33:17] Audio mix: start=10763125707, returned=322585440
+[2017-01-07 21:33:17] Audio source [System Windows]: init=10763148957, through=322586040, last_start=322585560, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:34:17] Audio mix: start=10763125707, returned=325465440
+[2017-01-07 21:34:17] Audio source [System Windows]: init=10763148957, through=325466040, last_start=325465560, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:35:17] Audio mix: start=10763125707, returned=328345920
+[2017-01-07 21:35:17] Audio source [System Windows]: init=10763148957, through=328346520, last_start=328346040, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:36:17] Audio mix: start=10763125707, returned=331225920
+[2017-01-07 21:36:17] Audio source [System Windows]: init=10763148957, through=331226520, last_start=331226040, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:36:44] CLIENT: Flushing audio, 54 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:36:44] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:37:17] Audio mix: start=10763125707, returned=334106400
+[2017-01-07 21:37:17] Audio source [System Windows]: init=10763148957, through=334107000, last_start=334106520, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:38:17] Audio mix: start=10763125707, returned=336986400
+[2017-01-07 21:38:17] Audio source [System Windows]: init=10763148957, through=336987480, last_start=336987000, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:39:17] Audio mix: start=10763125707, returned=339866880
+[2017-01-07 21:39:17] Audio source [System Windows]: init=10763148957, through=339867480, last_start=339867000, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:40:17] Audio mix: start=10763125707, returned=342747360
+[2017-01-07 21:40:17] Audio source [System Windows]: init=10763148957, through=342747960, last_start=342747480, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:41:17] Audio mix: start=10763125707, returned=345627840
+[2017-01-07 21:41:17] Audio source [System Windows]: init=10763148957, through=345628440, last_start=345627960, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:41:19] Over 960 sample audio gap
+[2017-01-07 21:42:17] Audio mix: start=10763125707, returned=348507360
+[2017-01-07 21:42:17] Audio source [System Windows]: init=10763148957, through=348507960, last_start=348507480, mixed=2879640, drop_before=840, drop_after=0
+[2017-01-07 21:43:17] Audio mix: start=10763125707, returned=351387360
+[2017-01-07 21:43:17] Audio source [System Windows]: init=10763148957, through=351387960, last_start=351387480, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:44:17] Audio mix: start=10763125707, returned=354267360
+[2017-01-07 21:44:17] Audio source [System Windows]: init=10763148957, through=354267960, last_start=354267480, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:45:17] Audio mix: start=10763125707, returned=357147840
+[2017-01-07 21:45:17] Audio source [System Windows]: init=10763148957, through=357148440, last_start=357147960, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:46:17] Audio mix: start=10763125707, returned=360028320
+[2017-01-07 21:46:17] Audio source [System Windows]: init=10763148957, through=360028920, last_start=360028440, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:47:17] Audio mix: start=10763125707, returned=362908320
+[2017-01-07 21:47:17] Audio source [System Windows]: init=10763148957, through=362908920, last_start=362908440, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:48:17] Audio mix: start=10763125707, returned=365788800
+[2017-01-07 21:48:17] Audio source [System Windows]: init=10763148957, through=365789400, last_start=365788920, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:49:17] Audio mix: start=10763125707, returned=368668800
+[2017-01-07 21:49:17] Audio source [System Windows]: init=10763148957, through=368669400, last_start=368668920, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:50:17] Audio mix: start=10763125707, returned=371549280
+[2017-01-07 21:50:17] Audio source [System Windows]: init=10763148957, through=371549880, last_start=371549400, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:50:30] CLIENT: Flushing audio, 58 ms queued, 52 ms maximum, delivery delay = 1
+[2017-01-07 21:50:30] CLIENT: Stopped flushing audio (flushing time complete)
+[2017-01-07 21:51:17] Audio mix: start=10763125707, returned=374429760
+[2017-01-07 21:51:17] Audio source [System Windows]: init=10763148957, through=374430360, last_start=374429880, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:52:17] Audio mix: start=10763125707, returned=377309760
+[2017-01-07 21:52:17] Audio source [System Windows]: init=10763148957, through=377310360, last_start=377309880, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:53:17] Audio mix: start=10763125707, returned=380190240
+[2017-01-07 21:53:17] Audio source [System Windows]: init=10763148957, through=380190840, last_start=380190360, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:54:17] Audio mix: start=10763125707, returned=383070240
+[2017-01-07 21:54:17] Audio source [System Windows]: init=10763148957, through=383070840, last_start=383070360, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:55:17] Audio mix: start=10763125707, returned=385950720
+[2017-01-07 21:55:17] Audio source [System Windows]: init=10763148957, through=385951320, last_start=385950840, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 21:55:38] Over 960 sample audio gap
+[2017-01-07 21:56:17] Audio mix: start=10763125707, returned=388830240
+[2017-01-07 21:56:17] Audio source [System Windows]: init=10763148957, through=388830840, last_start=388830360, mixed=2879640, drop_before=840, drop_after=0
+[2017-01-07 21:57:17] Audio mix: start=10763125707, returned=391710240
+[2017-01-07 21:57:17] Audio source [System Windows]: init=10763148957, through=391710840, last_start=391710360, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:58:17] Audio mix: start=10763125707, returned=394590240
+[2017-01-07 21:58:17] Audio source [System Windows]: init=10763148957, through=394590840, last_start=394590360, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 21:59:17] Audio mix: start=10763125707, returned=397470240
+[2017-01-07 21:59:17] Audio source [System Windows]: init=10763148957, through=397470840, last_start=397470360, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:00:17] Audio mix: start=10763125707, returned=400350720
+[2017-01-07 22:00:17] Audio source [System Windows]: init=10763148957, through=400351320, last_start=400350840, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:01:17] Audio mix: start=10763125707, returned=403230720
+[2017-01-07 22:01:17] Audio source [System Windows]: init=10763148957, through=403231320, last_start=403230840, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:02:17] Audio mix: start=10763125707, returned=406111200
+[2017-01-07 22:02:17] Audio source [System Windows]: init=10763148957, through=406111800, last_start=406111320, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:03:17] Audio mix: start=10763125707, returned=408991680
+[2017-01-07 22:03:17] Audio source [System Windows]: init=10763148957, through=408992280, last_start=408991800, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:04:17] Audio mix: start=10763125707, returned=411871680
+[2017-01-07 22:04:17] Audio source [System Windows]: init=10763148957, through=411872280, last_start=411871800, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:05:17] Audio mix: start=10763125707, returned=414751680
+[2017-01-07 22:05:17] Audio source [System Windows]: init=10763148957, through=414752280, last_start=414751800, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:06:17] Audio mix: start=10763125707, returned=417632160
+[2017-01-07 22:06:17] Audio source [System Windows]: init=10763148957, through=417632760, last_start=417632280, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:07:17] Audio mix: start=10763125707, returned=420512640
+[2017-01-07 22:07:17] Audio source [System Windows]: init=10763148957, through=420513240, last_start=420512760, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:08:17] Audio mix: start=10763125707, returned=423393120
+[2017-01-07 22:08:17] Audio source [System Windows]: init=10763148957, through=423393720, last_start=423393240, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:09:17] Audio mix: start=10763125707, returned=426273600
+[2017-01-07 22:09:17] Audio source [System Windows]: init=10763148957, through=426274200, last_start=426273720, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:09:58] Over 960 sample audio gap
+[2017-01-07 22:10:17] Audio mix: start=10763125707, returned=429153120
+[2017-01-07 22:10:17] Audio source [System Windows]: init=10763148957, through=429153720, last_start=429153240, mixed=2879640, drop_before=840, drop_after=0
+[2017-01-07 22:11:17] Audio mix: start=10763125707, returned=432033120
+[2017-01-07 22:11:17] Audio source [System Windows]: init=10763148957, through=432033720, last_start=432033240, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:12:17] Audio mix: start=10763125707, returned=434913600
+[2017-01-07 22:12:17] Audio source [System Windows]: init=10763148957, through=434914200, last_start=434913720, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:13:17] Audio mix: start=10763125707, returned=437793600
+[2017-01-07 22:13:17] Audio source [System Windows]: init=10763148957, through=437794200, last_start=437793720, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:14:17] Audio mix: start=10763125707, returned=440674080
+[2017-01-07 22:14:17] Audio source [System Windows]: init=10763148957, through=440674680, last_start=440674200, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:15:17] Audio mix: start=10763125707, returned=443554560
+[2017-01-07 22:15:17] Audio source [System Windows]: init=10763148957, through=443555160, last_start=443554680, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:16:17] Audio mix: start=10763125707, returned=446435040
+[2017-01-07 22:16:17] Audio source [System Windows]: init=10763148957, through=446435640, last_start=446435160, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:17:17] Audio mix: start=10763125707, returned=449315040
+[2017-01-07 22:17:17] Audio source [System Windows]: init=10763148957, through=449315640, last_start=449315160, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:18:17] Audio mix: start=10763125707, returned=452195520
+[2017-01-07 22:18:17] Audio source [System Windows]: init=10763148957, through=452196120, last_start=452195640, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:19:17] Audio mix: start=10763125707, returned=455075520
+[2017-01-07 22:19:17] Audio source [System Windows]: init=10763148957, through=455076120, last_start=455075640, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:20:17] Audio mix: start=10763125707, returned=457955520
+[2017-01-07 22:20:17] Audio source [System Windows]: init=10763148957, through=457956120, last_start=457955640, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:21:17] Audio mix: start=10763125707, returned=460836000
+[2017-01-07 22:21:17] Audio source [System Windows]: init=10763148957, through=460836600, last_start=460836120, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:22:17] Audio mix: start=10763125707, returned=463716480
+[2017-01-07 22:22:17] Audio source [System Windows]: init=10763148957, through=463717080, last_start=463716600, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:23:17] Audio mix: start=10763125707, returned=466596480
+[2017-01-07 22:23:17] Audio source [System Windows]: init=10763148957, through=466597080, last_start=466596600, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:24:17] Over 960 sample audio gap
+[2017-01-07 22:24:17] Audio mix: start=10763125707, returned=469476000
+[2017-01-07 22:24:17] Audio source [System Windows]: init=10763148957, through=469476600, last_start=469476120, mixed=2879640, drop_before=840, drop_after=0
+[2017-01-07 22:25:17] Audio mix: start=10763125707, returned=472356000
+[2017-01-07 22:25:17] Audio source [System Windows]: init=10763148957, through=472356600, last_start=472356120, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:26:17] Audio mix: start=10763125707, returned=475236480
+[2017-01-07 22:26:17] Audio source [System Windows]: init=10763148957, through=475237080, last_start=475236600, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:27:17] Audio mix: start=10763125707, returned=478116960
+[2017-01-07 22:27:17] Audio source [System Windows]: init=10763148957, through=478117560, last_start=478117080, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:28:17] Audio mix: start=10763125707, returned=480997440
+[2017-01-07 22:28:17] Audio source [System Windows]: init=10763148957, through=480998040, last_start=480997560, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:29:17] Audio mix: start=10763125707, returned=483877440
+[2017-01-07 22:29:17] Audio source [System Windows]: init=10763148957, through=483878040, last_start=483877560, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:30:17] Audio mix: start=10763125707, returned=486757920
+[2017-01-07 22:30:17] Audio source [System Windows]: init=10763148957, through=486758520, last_start=486758040, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:31:17] Audio mix: start=10763125707, returned=489638400
+[2017-01-07 22:31:17] Audio source [System Windows]: init=10763148957, through=489639000, last_start=489638520, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:32:17] Audio mix: start=10763125707, returned=492518400
+[2017-01-07 22:32:17] Audio source [System Windows]: init=10763148957, through=492519000, last_start=492518520, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:33:17] Audio mix: start=10763125707, returned=495398400
+[2017-01-07 22:33:17] Audio source [System Windows]: init=10763148957, through=495399480, last_start=495399000, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:34:17] Audio mix: start=10763125707, returned=498279360
+[2017-01-07 22:34:17] Audio source [System Windows]: init=10763148957, through=498279960, last_start=498279480, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:35:17] Audio mix: start=10763125707, returned=501159360
+[2017-01-07 22:35:17] Audio source [System Windows]: init=10763148957, through=501159960, last_start=501159480, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:36:17] Audio mix: start=10763125707, returned=504039360
+[2017-01-07 22:36:17] Audio source [System Windows]: init=10763148957, through=504039960, last_start=504039480, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:37:17] Audio mix: start=10763125707, returned=506919840
+[2017-01-07 22:37:17] Audio source [System Windows]: init=10763148957, through=506920440, last_start=506919960, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:38:17] Audio mix: start=10763125707, returned=509799840
+[2017-01-07 22:38:17] Audio source [System Windows]: init=10763148957, through=509800440, last_start=509799960, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:38:36] Over 960 sample audio gap
+[2017-01-07 22:39:17] Audio mix: start=10763125707, returned=512679360
+[2017-01-07 22:39:17] Audio source [System Windows]: init=10763148957, through=512679960, last_start=512679480, mixed=2879640, drop_before=840, drop_after=0
+[2017-01-07 22:40:17] Audio mix: start=10763125707, returned=515559360
+[2017-01-07 22:40:17] Audio source [System Windows]: init=10763148957, through=515559960, last_start=515559480, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:41:17] Audio mix: start=10763125707, returned=518439840
+[2017-01-07 22:41:17] Audio source [System Windows]: init=10763148957, through=518440440, last_start=518439960, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:42:17] Audio mix: start=10763125707, returned=521319840
+[2017-01-07 22:42:17] Audio source [System Windows]: init=10763148957, through=521320920, last_start=521320440, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:43:17] Audio mix: start=10763125707, returned=524200320
+[2017-01-07 22:43:17] Audio source [System Windows]: init=10763148957, through=524200920, last_start=524200440, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:44:17] Audio mix: start=10763125707, returned=527080800
+[2017-01-07 22:44:17] Audio source [System Windows]: init=10763148957, through=527081400, last_start=527080920, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:45:17] Audio mix: start=10763125707, returned=529961280
+[2017-01-07 22:45:17] Audio source [System Windows]: init=10763148957, through=529961880, last_start=529961400, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:46:17] Audio mix: start=10763125707, returned=532841760
+[2017-01-07 22:46:17] Audio source [System Windows]: init=10763148957, through=532842360, last_start=532841880, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:47:17] Audio mix: start=10763125707, returned=535721760
+[2017-01-07 22:47:17] Audio source [System Windows]: init=10763148957, through=535722360, last_start=535721880, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:48:17] Audio mix: start=10763125707, returned=538602240
+[2017-01-07 22:48:17] Audio source [System Windows]: init=10763148957, through=538602840, last_start=538602360, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:49:17] Audio mix: start=10763125707, returned=541482720
+[2017-01-07 22:49:17] Audio source [System Windows]: init=10763148957, through=541483320, last_start=541482840, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:50:17] Audio mix: start=10763125707, returned=544362720
+[2017-01-07 22:50:17] Audio source [System Windows]: init=10763148957, through=544363320, last_start=544362840, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:51:17] Audio mix: start=10763125707, returned=547243200
+[2017-01-07 22:51:17] Audio source [System Windows]: init=10763148957, through=547243800, last_start=547243320, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:52:17] Audio mix: start=10763125707, returned=550123680
+[2017-01-07 22:52:17] Audio source [System Windows]: init=10763148957, through=550124280, last_start=550123800, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:52:55] Over 960 sample audio gap
+[2017-01-07 22:53:17] Audio mix: start=10763125707, returned=553002720
+[2017-01-07 22:53:17] Audio source [System Windows]: init=10763148957, through=553003320, last_start=553002840, mixed=2879160, drop_before=840, drop_after=0
+[2017-01-07 22:54:17] Audio mix: start=10763125707, returned=555883200
+[2017-01-07 22:54:17] Audio source [System Windows]: init=10763148957, through=555883800, last_start=555883320, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:55:17] Audio mix: start=10763125707, returned=558763200
+[2017-01-07 22:55:17] Audio source [System Windows]: init=10763148957, through=558763800, last_start=558763320, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:56:17] Audio mix: start=10763125707, returned=561643680
+[2017-01-07 22:56:17] Audio source [System Windows]: init=10763148957, through=561644280, last_start=561643800, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:57:17] Audio mix: start=10763125707, returned=564524160
+[2017-01-07 22:57:17] Audio source [System Windows]: init=10763148957, through=564524760, last_start=564524280, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 22:58:17] Audio mix: start=10763125707, returned=567404160
+[2017-01-07 22:58:17] Audio source [System Windows]: init=10763148957, through=567404760, last_start=567404280, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 22:59:17] Audio mix: start=10763125707, returned=570284640
+[2017-01-07 22:59:17] Audio source [System Windows]: init=10763148957, through=570285240, last_start=570284760, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:00:18] Audio mix: start=10763125707, returned=573165120
+[2017-01-07 23:00:18] Audio source [System Windows]: init=10763148957, through=573165720, last_start=573165240, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:01:18] Audio mix: start=10763125707, returned=576045600
+[2017-01-07 23:01:18] Audio source [System Windows]: init=10763148957, through=576046200, last_start=576045720, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:02:18] Audio mix: start=10763125707, returned=578926080
+[2017-01-07 23:02:18] Audio source [System Windows]: init=10763148957, through=578926680, last_start=578926200, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:03:18] Audio mix: start=10763125707, returned=581806080
+[2017-01-07 23:03:18] Audio source [System Windows]: init=10763148957, through=581806680, last_start=581806200, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 23:04:18] Audio mix: start=10763125707, returned=584686080
+[2017-01-07 23:04:18] Audio source [System Windows]: init=10763148957, through=584686680, last_start=584686200, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 23:05:18] Audio mix: start=10763125707, returned=587566080
+[2017-01-07 23:05:18] Audio source [System Windows]: init=10763148957, through=587566680, last_start=587566200, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 23:06:18] Audio mix: start=10763125707, returned=590446560
+[2017-01-07 23:06:18] Audio source [System Windows]: init=10763148957, through=590447160, last_start=590446680, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:07:15] Over 960 sample audio gap
+[2017-01-07 23:07:18] Audio mix: start=10763125707, returned=593325600
+[2017-01-07 23:07:18] Audio source [System Windows]: init=10763148957, through=593326200, last_start=593325720, mixed=2879160, drop_before=840, drop_after=0
+[2017-01-07 23:08:18] Audio mix: start=10763125707, returned=596206080
+[2017-01-07 23:08:18] Audio source [System Windows]: init=10763148957, through=596206680, last_start=596206200, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:09:18] Audio mix: start=10763125707, returned=599086560
+[2017-01-07 23:09:18] Audio source [System Windows]: init=10763148957, through=599087160, last_start=599086680, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:10:18] Audio mix: start=10763125707, returned=601966560
+[2017-01-07 23:10:18] Audio source [System Windows]: init=10763148957, through=601967160, last_start=601966680, mixed=2880000, drop_before=0, drop_after=0
+[2017-01-07 23:11:18] Audio mix: start=10763125707, returned=604847040
+[2017-01-07 23:11:18] Audio source [System Windows]: init=10763148957, through=604847640, last_start=604847160, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:12:18] Audio mix: start=10763125707, returned=607727520
+[2017-01-07 23:12:18] Audio source [System Windows]: init=10763148957, through=607728120, last_start=607727640, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:13:18] Audio mix: start=10763125707, returned=610608000
+[2017-01-07 23:13:18] Audio source [System Windows]: init=10763148957, through=610608600, last_start=610608120, mixed=2880480, drop_before=0, drop_after=0
+
+
+[2017-01-07 23:45:05] CLIENT: Attaching controller XInput Controller with ID 0
+[2017-01-07 23:45:05] Streaming started to Steam Link at 192.168.0.169:38131, audio channels = 2, MTU = 1468
+[2017-01-07 23:45:05] Streaming quality: k_EStreamQualityBalanced
+[2017-01-07 23:45:05] Streaming bitrate: Automatic
+[2017-01-07 23:45:05] Maximum capture: 1920x1080 59.94 FPS
+[2017-01-07 23:45:05] Video Streaming: enabled
+[2017-01-07 23:45:05] Audio Streaming: enabled
+[2017-01-07 23:45:05] Input Streaming: enabled
+[2017-01-07 23:45:05] =====================================================================
+[2017-01-07 23:45:05] Game: UNKNOWN (0)
+[2017-01-07 23:45:05] Recording system audio
+[2017-01-07 23:45:05] Recording on device: Speakers (Yeti Stereo Microphone)
+[2017-01-07 23:45:05] Audio client mix format:
+[2017-01-07 23:45:05] 	format: 65534
+[2017-01-07 23:45:05] 	channels: 2
+[2017-01-07 23:45:05] 	samples/sec: 48000
+[2017-01-07 23:45:05] 	bytes/sec: 384000
+[2017-01-07 23:45:05] 	alignment: 8
+[2017-01-07 23:45:05] 	bits/sample: 32
+[2017-01-07 23:45:05] 	channel mask: 0x3
+[2017-01-07 23:45:05] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2017-01-07 23:45:05] Initializing audio with 2 channels and 48000 samples/sec
+[2017-01-07 23:45:05] Audio mix: start=859399030, returned=0
+[2017-01-07 23:45:05] Audio source [System Windows]: init=0, through=0, last_start=0, mixed=0, drop_before=0, drop_after=0
+[2017-01-07 23:45:05] Changing record window: 001202D4
+[2017-01-07 23:45:05] CLIENT: Got unexpected packet UNKNOWN in state Streaming
+[2017-01-07 23:45:05] >>> Switching video stream from NONE to Desktop_MovieStream
+[2017-01-07 23:45:05] CDesktopCaptureNV: Unsupported device or driver
+[2017-01-07 23:45:05] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10805
+[2017-01-07 23:45:05] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 23:45:06] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 23:45:06] >>> Capture resolution set to 1920x1080
+[2017-01-07 23:45:06] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 23:45:06] CLIENT: Marvell hardware decoding
+[2017-01-07 23:45:06] >>> Client video decoder set to Marvell hardware decoding
+[2017-01-07 23:45:06] CLIENT: Video overflow (276.41ms queued), requesting keyframe synchronization
+[2017-01-07 23:45:06] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 23:45:06] CLIENT: Marking frame 1 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:45:06] CLIENT: Marking frame 2 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:45:06] CLIENT: Marking frame 3 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:45:06] CLIENT: Marking frame 4 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:45:06] CLIENT: Marking frame 5 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:45:08] CLIENT: Targeting 59.94 FPS
+[2017-01-07 23:45:09] CLIENT: Targeting 59.94 FPS
+[2017-01-07 23:45:54] Over 960 sample audio gap
+[2017-01-07 23:45:58] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10805
+[2017-01-07 23:45:58] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 23:46:04] CLIENT: Marking frame 3341 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:46:05] Audio mix: start=859399030, returned=2880000
+[2017-01-07 23:46:05] Audio source [System Windows]: init=859423365, through=2880921, last_start=2880441, mixed=765120, drop_before=0, drop_after=0
+[2017-01-07 23:46:07] Changing record window: 000203FE
+[2017-01-07 23:46:07] "SessionStats"
+{
+	"GameNameID"		"Steam Big Picture"
+	"TimeSubmitted"		"1483861567"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Steam D3D10 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"15000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"1.625823974609375"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"3.2873001098632813"
+	"StdDevClientBitrate"		"2.9137842655181885"
+	"AvgServerBitrate"		"5746.88525390625"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"30000.001953125"
+	"AvgPingMS"		"7108686.5"
+	"StdDevPingMS"		"5577572.5"
+	"AvgCaptureMS"		"0.80260884761810303"
+	"StdDevCaptureMS"		"0.20128412544727325"
+	"AvgConvertMS"		"0.023256104439496994"
+	"StdDevConvertMS"		"0.82917541265487671"
+	"AvgEncodeMS"		"6.8929104804992676"
+	"StdDevEncodeMS"		"1.9450950622558594"
+	"AvgNetworkMS"		"2.1921131610870361"
+	"StdDevNetworkMS"		"1.498700737953186"
+	"AvgDecodeMS"		"2.2861559391021729"
+	"StdDevDecodeMS"		"36.586376190185547"
+	"AvgDisplayMS"		"0.012993811629712582"
+	"StdDevDisplayMS"		"0.02852337434887886"
+	"AvgFrameMS"		"19.036733627319336"
+	"StdDevFrameMS"		"4.0882077217102051"
+	"AvgFPS"		"71.116500854492188"
+	"StdDevFPS"		"35.125526428222656"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 23:46:07] >>> Capture method set to Desktop BitBlt RGB + libyuv + NVENC H264
+[2017-01-07 23:46:08] >>> Capture resolution set to 696x502
+[2017-01-07 23:46:08] CLIENT: Video size: 1497x1080, output size: 1920x1080
+[2017-01-07 23:46:08] CLIENT: Targeting 29.97 FPS
+[2017-01-07 23:46:23] "SessionStats"
+{
+	"GameNameID"		"Desktop"
+	"TimeSubmitted"		"1483861583"
+	"ResolutionX"		"696"
+	"ResolutionY"		"502"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"3.3116445541381836"
+	"StdDevClientBitrate"		"1.2958906888961792"
+	"AvgServerBitrate"		"1162.21826171875"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"30000.001953125"
+	"AvgPingMS"		"13023978"
+	"StdDevPingMS"		"3768924.75"
+	"AvgCaptureMS"		"31.749561309814453"
+	"StdDevCaptureMS"		"4.6120986938476562"
+	"AvgConvertMS"		"0.39370307326316833"
+	"StdDevConvertMS"		"0.49522161483764648"
+	"AvgEncodeMS"		"1.5193346738815308"
+	"StdDevEncodeMS"		"1.0260180234909058"
+	"AvgNetworkMS"		"2.433711051940918"
+	"StdDevNetworkMS"		"2.6834399700164795"
+	"AvgDecodeMS"		"1.3192932605743408"
+	"StdDevDecodeMS"		"0.33922013640403748"
+	"AvgDisplayMS"		"0.00762939453125"
+	"StdDevDisplayMS"		"0.0078966058790683746"
+	"AvgFrameMS"		"44.062519073486328"
+	"StdDevFrameMS"		"5.9756498336791992"
+	"AvgFPS"		"31.979412078857422"
+	"StdDevFPS"		"7.8007316589355469"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 23:46:23] >>> Capture resolution set to 1920x1080
+[2017-01-07 23:46:23] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 23:46:47] Changing record window: 00030420
+[2017-01-07 23:46:48] "SessionStats"
+{
+	"GameNameID"		"Desktop"
+	"TimeSubmitted"		"1483861608"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Desktop BitBlt RGB + libyuv + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"15000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.7906136512756348"
+	"StdDevClientBitrate"		"1.182913064956665"
+	"AvgServerBitrate"		"1261.4447021484375"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"30000.001953125"
+	"AvgPingMS"		"11621716"
+	"StdDevPingMS"		"9061425"
+	"AvgCaptureMS"		"25.218101501464844"
+	"StdDevCaptureMS"		"7.0531477928161621"
+	"AvgConvertMS"		"1.9705665111541748"
+	"StdDevConvertMS"		"0.2857329249382019"
+	"AvgEncodeMS"		"4.8666276931762695"
+	"StdDevEncodeMS"		"4.0565595626831055"
+	"AvgNetworkMS"		"1.3648481369018555"
+	"StdDevNetworkMS"		"1.884722113609314"
+	"AvgDecodeMS"		"1.4124367237091064"
+	"StdDevDecodeMS"		"0.46669846773147583"
+	"AvgDisplayMS"		"0.012169965542852879"
+	"StdDevDisplayMS"		"0.0071313665248453617"
+	"AvgFrameMS"		"38.615753173828125"
+	"StdDevFrameMS"		"8.0139827728271484"
+	"AvgFPS"		"31.914028167724609"
+	"StdDevFPS"		"10.616856575012207"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 23:46:48] >>> Capture method set to Desktop DWM NV12 + NVENC H264
+[2017-01-07 23:46:49] CLIENT: Targeting 59.94 FPS
+[2017-01-07 23:46:49] Over 960 sample audio gap
+[2017-01-07 23:46:49] >>> Switching video stream from Desktop_MovieStream to GameOverlay_MovieStream_9824
+[2017-01-07 23:46:49] >>> Capture method set to Game polled D3D11 NV12 + NVENC H264
+[2017-01-07 23:47:05] Audio mix: start=859399030, returned=5760000
+[2017-01-07 23:47:05] Audio source [System Windows]: init=859423365, through=5760908, last_start=5760428, mixed=884640, drop_before=0, drop_after=0
+[2017-01-07 23:48:05] Audio mix: start=859399030, returned=8640480
+[2017-01-07 23:48:05] Audio source [System Windows]: init=859423365, through=8641388, last_start=8640908, mixed=2880480, drop_before=0, drop_after=0
+[2017-01-07 23:48:29] CLIENT: Marking frame 10681 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:48:32] CLIENT: Marking frame 10848 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:48:35] CLIENT: Marking frame 11017 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:48:35] CLIENT: Marking frame 11039 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:48:51] Changing record window: 00000000
+[2017-01-07 23:48:51] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10805
+[2017-01-07 23:48:51] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 23:48:51] "SessionStats"
+{
+	"GameNameID"		"Grand Theft Auto V"
+	"TimeSubmitted"		"1483861731"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Game polled D3D11 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"15000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"2.734360933303833"
+	"StdDevClientBitrate"		"1.2960443496704102"
+	"AvgServerBitrate"		"9577.984375"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"30000.001953125"
+	"AvgPingMS"		"5389283"
+	"StdDevPingMS"		"6088990.5"
+	"AvgCaptureMS"		"0.87521904706954956"
+	"StdDevCaptureMS"		"0.16911521553993225"
+	"AvgConvertMS"		"0.004590802825987339"
+	"StdDevConvertMS"		"0.023437490686774254"
+	"AvgEncodeMS"		"5.0036640167236328"
+	"StdDevEncodeMS"		"1.9245922565460205"
+	"AvgNetworkMS"		"2.9034404754638672"
+	"StdDevNetworkMS"		"1.935145378112793"
+	"AvgDecodeMS"		"1.5979106426239014"
+	"StdDevDecodeMS"		"0.67559826374053955"
+	"AvgDisplayMS"		"0.017659580335021019"
+	"StdDevDisplayMS"		"0.07476469874382019"
+	"AvgFrameMS"		"17.917640686035156"
+	"StdDevFrameMS"		"3.5367844104766846"
+	"AvgFPS"		"62.504081726074219"
+	"StdDevFPS"		"16.526374816894531"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 23:48:51] Changing record window: 001202D4
+[2017-01-07 23:48:51] >>> Switching video stream from GameOverlay_MovieStream_9824 to Desktop_MovieStream
+[2017-01-07 23:48:51] >>> Capture method set to Desktop DWM NV12 + NVENC H264
+[2017-01-07 23:48:51] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 23:48:51] CLIENT: Marking frame 11932 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:48:51] CLIENT: Marking frame 11933 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:48:51] Changing record window: 000203FE
+[2017-01-07 23:48:53] CLIENT: Targeting 29.97 FPS
+[2017-01-07 23:48:53] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10805
+[2017-01-07 23:48:53] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 23:48:53] >>> Capture method set to Desktop BitBlt RGB + libyuv + NVENC H264
+[2017-01-07 23:48:53] >>> Capture resolution set to 696x502
+[2017-01-07 23:48:53] Changing record window: 00000000
+[2017-01-07 23:48:53] CLIENT: Video size: 1497x1080, output size: 1920x1080
+[2017-01-07 23:48:53] Changing record window: 001202D4
+[2017-01-07 23:48:53] >>> Capture resolution set to 1920x1080
+[2017-01-07 23:48:53] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 23:48:53] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 23:48:54] CLIENT: Targeting 59.94 FPS
+[2017-01-07 23:48:54] CLIENT: Marking frame 11961 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:48:56] Over 960 sample audio gap
+[2017-01-07 23:49:05] Audio mix: start=859399030, returned=11520960
+[2017-01-07 23:49:05] Audio source [System Windows]: init=859423365, through=11521533, last_start=11521053, mixed=2698560, drop_before=0, drop_after=0
+[2017-01-07 23:49:07] "SessionStats"
+{
+	"GameNameID"		"Steam Big Picture"
+	"TimeSubmitted"		"1483861747"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Steam D3D10 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"15000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"3.0434284210205078"
+	"StdDevClientBitrate"		"1.3099044561386108"
+	"AvgServerBitrate"		"4816.43017578125"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"30000.001953125"
+	"AvgPingMS"		"5982915"
+	"StdDevPingMS"		"5214710.5"
+	"AvgCaptureMS"		"1.0109304189682007"
+	"StdDevCaptureMS"		"2.7834582328796387"
+	"AvgConvertMS"		"0.01921173557639122"
+	"StdDevConvertMS"		"0.27164101600646973"
+	"AvgEncodeMS"		"6.8661885261535645"
+	"StdDevEncodeMS"		"2.0226359367370605"
+	"AvgNetworkMS"		"1.8402303457260132"
+	"StdDevNetworkMS"		"1.6610193252563477"
+	"AvgDecodeMS"		"1.5702829360961914"
+	"StdDevDecodeMS"		"0.69669145345687866"
+	"AvgDisplayMS"		"0.011772238649427891"
+	"StdDevDisplayMS"		"0.0072374655865132809"
+	"AvgFrameMS"		"19.492652893066406"
+	"StdDevFrameMS"		"3.8784513473510742"
+	"AvgFPS"		"68.484321594238281"
+	"StdDevFPS"		"38.258617401123047"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"0"
+	"SteamControllerInput"		"0"
+}
+
+[2017-01-07 23:50:32] CLIENT: Attaching controller XInput Controller with ID 0
+[2017-01-07 23:50:32] Streaming started to Steam Link at 192.168.0.169:48693, audio channels = 2, MTU = 1468
+[2017-01-07 23:50:32] Streaming quality: k_EStreamQualityFast
+[2017-01-07 23:50:32] Streaming bitrate: Automatic
+[2017-01-07 23:50:32] Maximum capture: 1920x1080 59.94 FPS
+[2017-01-07 23:50:32] Video Streaming: enabled
+[2017-01-07 23:50:32] Audio Streaming: enabled
+[2017-01-07 23:50:32] Input Streaming: enabled
+[2017-01-07 23:50:32] =====================================================================
+[2017-01-07 23:50:32] Game: UNKNOWN (0)
+[2017-01-07 23:50:32] Recording system audio
+[2017-01-07 23:50:32] Recording on device: Speakers (Yeti Stereo Microphone)
+[2017-01-07 23:50:32] Audio client mix format:
+[2017-01-07 23:50:32] 	format: 65534
+[2017-01-07 23:50:32] 	channels: 2
+[2017-01-07 23:50:32] 	samples/sec: 48000
+[2017-01-07 23:50:32] 	bytes/sec: 384000
+[2017-01-07 23:50:32] 	alignment: 8
+[2017-01-07 23:50:32] 	bits/sample: 32
+[2017-01-07 23:50:32] 	channel mask: 0x3
+[2017-01-07 23:50:32] 	data format: {00000003-0000-0010-8000-00AA00389B71}
+[2017-01-07 23:50:32] Initializing audio with 2 channels and 48000 samples/sec
+[2017-01-07 23:50:32] Audio mix: start=1186092048, returned=0
+[2017-01-07 23:50:32] Audio source [System Windows]: init=0, through=0, last_start=0, mixed=0, drop_before=0, drop_after=0
+[2017-01-07 23:50:32] Changing record window: 00070404
+[2017-01-07 23:50:32] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x10805
+[2017-01-07 23:50:32] Video adapter: NVIDIA GeForce GTX 1060 6GB, vendor ID: 0x10de, device ID: 0x1c03
+[2017-01-07 23:50:32] >>> Switching video stream from NONE to Desktop_MovieStream
+[2017-01-07 23:50:32] CLIENT: Got unexpected packet UNKNOWN in state Streaming
+[2017-01-07 23:50:32] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2017-01-07 23:50:32] >>> Capture resolution set to 1920x1080
+[2017-01-07 23:50:32] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 23:50:32] >>> Client video decoder set to Marvell hardware decoding
+[2017-01-07 23:50:32] CLIENT: Marvell hardware decoding
+[2017-01-07 23:50:32] CLIENT: Video overflow (135.07ms queued), requesting keyframe synchronization
+[2017-01-07 23:50:32] CLIENT: Video size: 1920x1080, output size: 1920x1080
+[2017-01-07 23:50:33] CLIENT: Marking frame 1 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:50:33] CLIENT: Marking frame 2 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:50:33] CLIENT: Marking frame 3 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:50:33] CLIENT: Marking frame 4 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:50:33] CLIENT: Marking frame 5 complete with status k_EStreamFrameResultDroppedLate
+[2017-01-07 23:50:35] CLIENT: Targeting 59.94 FPS
+[2017-01-07 23:50:36] CLIENT: Targeting 59.94 FPS
+[2017-01-07 23:50:39] Over 960 sample audio gap
+[2017-01-07 23:50:48] "SessionStats"
+{
+	"GameNameID"		"Steam Big Picture"
+	"TimeSubmitted"		"1483861848"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1080"
+	"CaptureDescriptionID"		"Steam D3D10 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Marvell hardware decoding"
+	"BandwidthLimit"		"10000"
+	"FramerateLimit"		"0"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"0"
+	"SlowDecodePercent"		"6.2004094123840332"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"4.6862225532531738"
+	"StdDevClientBitrate"		"2.7161710262298584"
+	"AvgServerBitrate"		"5546.7783203125"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"30000.001953125"
+	"AvgPingMS"		"2269488.25"
+	"StdDevPingMS"		"3046859.25"
+	"AvgCaptureMS"		"0.88432949781417847"
+	"StdDevCaptureMS"		"0.77814191579818726"
+	"AvgConvertMS"		"0.040389828383922577"
+	"StdDevConvertMS"		"1.0257830619812012"
+	"AvgEncodeMS"		"7.225588321685791"
+	"StdDevEncodeMS"		"1.9415099620819092"
+	"AvgNetworkMS"		"2.7088305950164795"
+	"StdDevNetworkMS"		"1.8337525129318237"
+	"AvgDecodeMS"		"4.1241793632507324"
+	"StdDevDecodeMS"		"73.322502136230469"
+	"AvgDisplayMS"		"0.013981050811707973"
+	"StdDevDisplayMS"		"0.040483683347702026"
+	"AvgFrameMS"		"19.275386810302734"
+	"StdDevFrameMS"		"2.5088584423065186"
+	"AvgFPS"		"69.147056579589844"
+	"StdDevFPS"		"34.275032043457031"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"0"
+	"GameControllerInput"		"1"
+	"SteamControllerInput"		"0"
+}
+
